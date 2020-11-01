@@ -8,3 +8,6 @@
 
 /* Estilos pertinentes ao header do site */
 @import url("header.css");
+
+/* Estilos pertinentes ao footer do site */
+@import url("footer.css");
