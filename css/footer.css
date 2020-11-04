@@ -5,6 +5,9 @@ footer {
     width: 100%;
     color: #fff;
     font-family: "Ubuntu", sans-serif;
+    margin: auto auto;
+    padding: 10px 5px;
+
 }
 
 .main-content {

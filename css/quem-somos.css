@@ -1,0 +1,213 @@
+
+.quem-somos-main {
+    position: absolute;
+    width: 1366px;
+    height: 1777px;
+    left: 0px;
+    top: 75px;
+
+}
+
+.section-quem-somos {
+    position: absolute;
+    width: 1366px;
+    height: 452px;
+    left: 0px;
+    top: 75px;
+
+}
+
+#img-quem-somos {
+    position: absolute;
+    width: 558px;
+    height: 387px;
+    left: 693px;
+    top: 65px;
+
+    background: #C4C4C4;
+    /* cinza-claro */
+
+    border: 1px solid #757575;
+    box-sizing: border-box;
+}
+
+#texto-quem-somos {
+    position: absolute;
+    width: 442px;
+    height: 387px;
+    left: 115px;
+    top: 65px;
+
+    font-family: Rowdies;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+
+    color: #4AB8B9;
+}
+
+p {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #000000;
+}
+
+.section-missao-historia {
+    position: absolute;
+    width: 1366px;
+    height: 387px;
+    left: 0px;
+    top: 527px;
+
+}
+
+#texto-historia {
+    position: absolute;
+    width: 558px;
+    height: 387px;
+    left: 693px;
+    top: 0px;
+
+    font-family: Rowdies;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+
+    color: #FCC63E;
+}
+
+#texto-missao {
+    position: absolute;
+    width: 558px;
+    height: 387px;
+    left: 115px;
+    top: 0px;
+
+    font-family: Rowdies;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+
+    color: #FCC63E;
+}
+
+.section-equipe {
+    position: absolute;
+    width: 1366px;
+    height: 472px;
+    left: 0px;
+    top: 914px;
+}
+
+.texto-nossa-equipe {
+    position: absolute;
+    width: 1136px;
+    height: 129px;
+    left: 114px;
+    top: 55px;
+
+    font-family: Rowdies;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #4AB8B9;
+
+}
+
+.section-odsatuamos {
+    /* section-ods */
+
+    position: absolute;
+    width: 1366px;
+    height: 466px;
+    left: 0px;
+    top: 1386px;
+
+}
+
+#rectangle-4 {
+    /* Rectangle 4 */
+
+    position: absolute;
+    width: 195.39px;
+    height: 200px;
+    left: 604px;
+    top: 114px;
+
+    background: #C4C4C4;
+    /* cinza-claro */
+
+    border: 1px solid #757575;
+    box-sizing: border-box;
+}
+
+#rectangle-3 {
+    /* Rectangle 3 */
+
+
+    position: absolute;
+    width: 195.39px;
+    height: 200px;
+    left: 824px;
+    top: 114px;
+
+    background: #C4C4C4;
+    /* cinza-claro */
+
+    border: 1px solid #757575;
+    box-sizing: border-box;
+}
+
+#rectangle-2 {
+    /* Rectangle 2 */
+
+
+    position: absolute;
+    width: 195.39px;
+    height: 200px;
+    left: 1055px;
+    top: 114px;
+
+    background: #C4C4C4;
+    /* cinza-claro */
+
+    border: 1px solid #757575;
+    box-sizing: border-box;
+}
+
+#texto-odsatuamos {
+    position: absolute;
+    width: 442px;
+    height: 387px;
+    left: 114px;
+    top: 0px;
+
+    font-family: Rowdies;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+
+    color: #FCC63E;
+
+}
