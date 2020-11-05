@@ -9,19 +9,24 @@
 </head>
 
 <body>
-     <?php include'header.html';?> 
+     <!--<?php include'header.html';?> -->
 
     <main class="quem-somos-main">
+
+    
         <section class="section-quem-somos">
-            <div id="img-quem-somos">
-                <!--<img src="voluntario.png" alt="quem-somos" >-->
-            </div>
+            
             <div id="texto-quem-somos">
-               QUEM SOMOS
+              <h2>QUEM SOMOS</h2> 
                 <p class="p-quem-somos">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
             </div>
+
+            <div id="img-quem-somos">
+                <!--<img src="voluntario.png" alt="quem-somos" >-->
+            </div>
+            
         </section> 
 
         <section class="section-missao-historia">

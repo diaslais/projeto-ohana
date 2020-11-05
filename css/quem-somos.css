@@ -1,29 +1,33 @@
 
 .quem-somos-main {
-    position: absolute;
-    width: 1366px;
-    height: 1777px;
+    /* position: absolute; */
+    /* width: 100%;
+    height: 1777px; */
     left: 0px;
     top: 75px;
+    border: 3px solid red;
 
 }
 
 .section-quem-somos {
-    position: absolute;
-    width: 1366px;
-    height: 452px;
+    /* position: absolute; */
+   /* width: 1366px;*/
+    /* height: 452px; */
+    margin: 10% 10% 5% 10%;
+    display: flex;
     left: 0px;
     top: 75px;
+    border: 1px solid black;
 
 }
 
 #img-quem-somos {
-    position: absolute;
-    width: 558px;
-    height: 387px;
+    /* position: absolute; */
+    /* width: 558px;
+    height: 387px; */
     left: 693px;
     top: 65px;
-
+    width: 50%;
     background: #C4C4C4;
     /* cinza-claro */
 
@@ -32,12 +36,15 @@
 }
 
 #texto-quem-somos {
-    position: absolute;
-    width: 442px;
-    height: 387px;
+    /* position: absolute; */
+    /* width: 442px;
+    height: 387px; */
     left: 115px;
     top: 65px;
-
+    display: flex;
+    width: 50%;
+    padding-right: 15%;
+    flex-direction: column;
     font-family: Rowdies;
     font-style: normal;
     font-weight: normal;
@@ -47,6 +54,10 @@
     align-items: center;
 
     color: #4AB8B9;
+}
+
+#texto-quem-somos p {
+    padding-top: 5%;
 }
 
 p {
@@ -59,19 +70,20 @@ p {
     color: #000000;
 }
 
+
 .section-missao-historia {
-    position: absolute;
-    width: 1366px;
-    height: 387px;
+    /* position: absolute; */
+    /* width: 1366px;
+    height: 387px; */
     left: 0px;
     top: 527px;
 
 }
 
 #texto-historia {
-    position: absolute;
-    width: 558px;
-    height: 387px;
+    /* position: absolute; */
+    /* width: 558px;
+    height: 387px; */
     left: 693px;
     top: 0px;
 
@@ -87,9 +99,9 @@ p {
 }
 
 #texto-missao {
-    position: absolute;
-    width: 558px;
-    height: 387px;
+    /* position: absolute; */
+    /* width: 558px;
+    height: 387px; */
     left: 115px;
     top: 0px;
 
@@ -105,17 +117,17 @@ p {
 }
 
 .section-equipe {
-    position: absolute;
-    width: 1366px;
-    height: 472px;
+    /* position: absolute; */
+    /* width: 1366px;
+    height: 472px; */
     left: 0px;
     top: 914px;
 }
 
 .texto-nossa-equipe {
-    position: absolute;
-    width: 1136px;
-    height: 129px;
+    /* position: absolute;
+    /* width: 1136px; */
+    height: 129px; */
     left: 114px;
     top: 55px;
 
@@ -135,9 +147,9 @@ p {
 .section-odsatuamos {
     /* section-ods */
 
-    position: absolute;
-    width: 1366px;
-    height: 466px;
+    /* position: absolute; */
+    /* width: 1366px;
+    height: 466px; */
     left: 0px;
     top: 1386px;
 
@@ -146,9 +158,9 @@ p {
 #rectangle-4 {
     /* Rectangle 4 */
 
-    position: absolute;
-    width: 195.39px;
-    height: 200px;
+    /* position: absolute; */
+    /* width: 195.39px;
+    height: 200px; */
     left: 604px;
     top: 114px;
 
@@ -163,9 +175,9 @@ p {
     /* Rectangle 3 */
 
 
-    position: absolute;
-    width: 195.39px;
-    height: 200px;
+    /* position: absolute; */
+    /* width: 195.39px;
+    height: 200px; */
     left: 824px;
     top: 114px;
 
@@ -180,9 +192,9 @@ p {
     /* Rectangle 2 */
 
 
-    position: absolute;
-    width: 195.39px;
-    height: 200px;
+    /* position: absolute; */
+    /* width: 195.39px;
+    height: 200px; */
     left: 1055px;
     top: 114px;
 
@@ -194,9 +206,9 @@ p {
 }
 
 #texto-odsatuamos {
-    position: absolute;
-    width: 442px;
-    height: 387px;
+    /* position: absolute; */
+    /* width: 442px;
+    height: 387px; */
     left: 114px;
     top: 0px;
 
