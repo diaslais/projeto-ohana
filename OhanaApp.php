@@ -1,41 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Protótipo Ohana</title>
+    <!-- carregamento do arquivo header INTEIRO -->
+    <?php  include 'header.html'; ?>   
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/parallax.min.js"></script>
-
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-
-    <link rel="stylesheet" href="css/OhanaApp.css">
-    <link rel="stylesheet" href="css/join.css">
-
-
-</head>
-
-<body>
-
-    <div class="header">
-        <?php  include 'header.html'; ?>
-    </div>
-    <script type="text/javascript">
-        var prevY = window.pageYOffset;
-        window.onscroll = function () {
-            var currentY = window.pageYOffset;
-            if (currentY < prevY) {
-                document.querySelector("header").style.top = "0";
-            }
-            else {
-                document.querySelector("header").style.top = "-100px";
-            }
-            prevY = currentY;
-        }
-    </script>
+    <!-- inicio do corpo da pagina  -->
 
     <div class="layer">
         <div class="parallax" data-parallax="scroll" data-z-index="1" data-position="0px"
@@ -59,13 +27,26 @@
             </a>
         </div>
     </div>
+    <!-- fim do corpo da pagina -->
 
-    
 
-    <div class="footer">
-        <?php  include 'footer.html'; ?>
-    </div>
+    <!-- carregamento de script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/parallax.min.js"></script>
 
-</body>
+    <script type="text/javascript">
+        var prevY = window.pageYOffset;
+        window.onscroll = function () {
+            var currentY = window.pageYOffset;
+            if (currentY < prevY) {
+                document.querySelector("header").style.top = "0";
+            }
+            else {
+                document.querySelector("header").style.top = "-100px";
+            }
+            prevY = currentY;
+        }
+    </script>
 
-</html>
+    <!-- carrega arquivo footer INTEIRO -->
+    <?php  include 'footer.html'; ?>
