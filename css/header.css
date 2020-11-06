@@ -91,6 +91,19 @@ header {
   display: block;
 }
 
+.container-icon {
+  display: inline-flex;
+  transition: 0.5s ease-out;
+}
+
+.fa-chevron-down {
+  font-size: 10px;
+}
+
+.dropdown-list:hover .container-icon {
+  transform: rotate(180deg);
+}
+
 .dropdown-list li {
   margin: 0;
   padding: 1.5vw 1vw;
@@ -100,8 +113,13 @@ header {
   border-bottom: 0.15vw solid #e0e0e0;
 }
 
+.dropdown-head {
+  display: inline;
+}
+
 .dropdown-list button {
   padding: 1vw 0;
+  outline: none;
   font-family: inherit;
   font-size: inherit;
   font-weight: inherit;
@@ -110,7 +128,7 @@ header {
   border: none;
 }
 
-.dropdown-list button a:hover {
+.dropdown-list button:hover a {
   border-bottom: 0.3vw solid #fcc63e;
 }
 
