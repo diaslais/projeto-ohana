@@ -1,72 +1,48 @@
-
-.quem-somos-main {
-
-    left: 0px;
-    top: 75px;
-    border: 0px solid rgb(109, 71, 71)
-
-}
-
-.section-quem-somos {
-   
+#section-quem-somos {
     margin: 10% 10% 5% 10%;
     display: flex;
-    left: 0px;
-    top: 75px;
-    border: 1px solid black;
-
-}
-
-#img-quem-somos {
-   
-    
-    
-    width: 55%;
-    background: #C4C4C4;
-    /* cinza-claro */
-
-    border: 1px solid #757575;
-    box-sizing: border-box;
 }
 
 #texto-quem-somos {
-  
-    display: flex;
     width: 45%;
-    padding-right: 10%;
     height: 100%;
-     flex-direction: column; 
+
+    flex-direction: column; 
     justify-content: space-between;
+
     padding-top: 10%;
     padding-bottom: 10%;
-    border: 4px solid pink;
-    
+    padding-right: 10%;
 }
 
 h2{
     font-size: 250%;
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
+
     text-transform: uppercase;
     color: #4ab8b9;
-    border: 1px solid red;
+    
     margin: 0%;
 }
 
-.h2-texto-missao-historia{
+#img-quem-somos {
+    width: 55%;
+    margin-left: 10%;
+}
+
+#h2-texto-missao-historia{
     font-size: 250%;
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     color: #FDC204;
-    border: 1px solid red;
+    
     margin: 0%;
 }
 
 #texto-quem-somos p {
     padding-top: 5%;
-    border: 1px solid blue;
-    
 }
 
 p {
@@ -80,26 +56,22 @@ p {
 }
 
 
-.section-missao-historia {
+#section-missao-historia {
     margin: 10% 10% 5% 10%;
     display: flex;
-    
-    border: 1px solid black;
-
 }
 
 #texto-historia {
-    
-    margin-left: 10%;
     width: 50%;
-    padding-right: 10%;
     
-  
     flex-direction: column; 
     justify-content: space-between;
+
+    margin-left: 10%;
+
     padding-top: 10%;
     padding-bottom: 10%;
-    border: 4px solid pink;
+    padding-right: 10%;
 }
 
 #texto-missao {
@@ -107,54 +79,45 @@ p {
     padding-top: 10%;
 }
 
-.section-equipe {
-    
+#section-equipe {
     margin: 10% 10% 5% 10%;
 }
 
-.texto-nossa-equipe {
-
+#texto-nossa-equipe {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.imagens-membros {
+#imagens-membros {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    
 }
 
-.figure-membros {
-    border: 1px solid yellow;
-    object-fit: none; 
-    /* contain */
+#figure-membros {  
+    object-fit: none;  /* contain */
 }
 
-.section-odsatuamos {
-    
+#section-odsatuamos {
     display: flex;
 }
 
-
 #texto-odsatuamos {
-   
     width: 40%;
     margin: 10% 10% 5% 10%;
 }
 
 
-.container-imagens-ods {
-    width: 60%;
+#container-imagens-ods {
+     width: 60%; 
 }
 
 #rectangle-1 {
-    
-
     border: 1px solid #757575;
     box-sizing: border-box;
     width: 20%;
+    
     margin-top: 10%;
 }
 
@@ -163,29 +126,23 @@ p {
     height: 100%;
 }
 
-#rectangle-3 {
-    border: 1px solid #757575;
-    box-sizing: border-box;
-    width: 20%;
-    margin-top: 10%;
-}
-
-#rectangle-3 img {
-    width: 100%;
-    height: 100%;
-}
-
-
 #rectangle-2 {
-   
-
-    border: 1px solid #757575;
-    box-sizing: border-box;
     width: 20%;
     margin-top: 10%;
 }
 
 #rectangle-2 img {
+    width: 100%;
+    height: 100%;
+}
+
+
+#rectangle-3 {
+    width: 20%;
+    margin-top: 10%;
+}
+
+#rectangle-3 img {
     width: 100%;
     height: 100%;
 }
