@@ -1,0 +1,147 @@
+#section-quem-somos {
+    margin: 10% 10% 5% 10%;
+    display: flex;
+}
+
+#texto-quem-somos {
+    width: 45%;
+    height: 100%;
+
+    flex-direction: column; 
+    justify-content: space-between;
+
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 10%;
+}
+
+h2{
+    font-size: 250%;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+
+    text-transform: uppercase;
+    color: #4ab8b9;
+    
+    margin: 0%;
+}
+
+#img-quem-somos {
+    width: 55%;
+    margin-left: 10%;
+    border: 1px solid purple;
+}
+
+#h2-texto-missao-historia{
+    font-size: 250%;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FDC204;
+    
+    margin: 0%;
+}
+
+#texto-quem-somos p {
+    padding-top: 5%;
+}
+
+p {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #000000;
+}
+
+
+#section-missao-historia {
+    margin: 10% 10% 5% 10%;
+    display: flex;
+}
+
+#texto-historia {
+    width: 50%;
+    
+    flex-direction: column; 
+    justify-content: space-between;
+
+    margin-left: 10%;
+
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 10%;
+}
+
+#texto-missao {
+    width: 50%;
+    padding-top: 10%;
+}
+
+#section-equipe {
+    margin: 10% 10% 5% 10%;
+}
+
+#texto-nossa-equipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#imagens-membros {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#figure-membros {  
+    object-fit: none;  /* contain */
+}
+
+#section-odsatuamos {
+    display: flex;
+   
+}
+
+#texto-odsatuamos {
+    width: 40%;
+    margin: 10% 10% 5% 10%;
+}
+
+
+#rectangle-1 {
+    border: 1px solid #757575;
+    box-sizing: border-box;
+    width: 20%;
+    
+    margin-top: 10%;
+}
+
+#rectangle-1 img {
+    width: 100%;
+    height: 100%;
+}
+
+#rectangle-2 {
+    width: 20%;
+    margin-top: 10%;
+}
+
+#rectangle-2 img {
+    width: 100%;
+    height: 100%;
+}
+
+
+#rectangle-3 {
+    width: 20%;
+    margin-top: 10%;
+}
+
+#rectangle-3 img {
+    width: 100%;
+    height: 100%;
+}

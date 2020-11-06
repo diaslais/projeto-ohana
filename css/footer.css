@@ -1,10 +1,12 @@
 footer {
+
   background-color: #4ab8b9;
   position: static;
   bottom: 0;
   width: 100%;
   color: #fff;
   font-family: "Ubuntu", sans-serif;
+
 }
 
 .main-content {
