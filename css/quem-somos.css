@@ -80,30 +80,13 @@ p {
 
 
 .section-missao-historia {
-    /* position: absolute; */
-    /* width: 1366px;
-    height: 387px; */
-    left: 0px;
-    top: 527px;
+    display: flex;
+    border: 1px solid purple;
 
 }
 
 #texto-historia {
-    /* position: absolute; */
-    /* width: 558px;
-    height: 387px; */
-    left: 693px;
-    top: 0px;
-
-    font-family: Rowdies;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 45px;
-    display: flex;
-    align-items: center;
-
-    color: #FCC63E;
+    
 }
 
 #texto-missao {
