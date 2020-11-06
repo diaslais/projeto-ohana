@@ -29,6 +29,7 @@ h2{
 #img-quem-somos {
     width: 55%;
     margin-left: 10%;
+    border: 1px solid purple;
 }
 
 #h2-texto-missao-historia{
@@ -87,6 +88,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 #imagens-membros {
@@ -101,6 +103,7 @@ p {
 
 #section-odsatuamos {
     display: flex;
+   
 }
 
 #texto-odsatuamos {
@@ -108,10 +111,6 @@ p {
     margin: 10% 10% 5% 10%;
 }
 
-
-#container-imagens-ods {
-     width: 60%; 
-}
 
 #rectangle-1 {
     border: 1px solid #757575;

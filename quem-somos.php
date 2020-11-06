@@ -12,7 +12,10 @@
             </article>
 
             <article id="img-quem-somos">
-                <img src="assets/volunteer.jpg" alt="quem-somos" >
+                <figure>
+
+                <figcaption> Quem somos </figcaption>
+                </figure>
             </article>
             
         </section> 
@@ -80,7 +83,7 @@
 
         </section>
 
-        <section class="section-odsatuamos">
+        <section id="section-odsatuamos">
 
             <article id="texto-odsatuamos">
                 <h2>ODS que atuamos</h2>
@@ -88,18 +91,18 @@
              </article>
 
             
-                <figure id="rectangle-1">
-                    <img src="assets/solid-black.jpg" alt="">
+                 <figure id="rectangle-1">
+                    <img src="assets/solid-black.jpg" alt=""> 
                 </figure>
 
-                <figure id="rectangle-2">
+                 <figure id="rectangle-2">
                     <img src="assets/solid-yellow.jpg" alt="">
                 </figure>
 
                 <figure id="rectangle-3">
                     <img src="assets/solid-grey.jpg" alt="">
-                </figure>
+                </figure> 
    
         </section>
     </main>
-     <?php include'footer.html';?> 
+     <!--<?php include'footer.html';?> -->
