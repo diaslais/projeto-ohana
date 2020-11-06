@@ -27,7 +27,7 @@
     height: 387px; */
     left: 693px;
     top: 65px;
-    width: 50%;
+    width: 55%;
     background: #C4C4C4;
     /* cinza-claro */
 
@@ -39,25 +39,33 @@
     /* position: absolute; */
     /* width: 442px;
     height: 387px; */
-    left: 115px;
-    top: 65px;
-    display: flex;
-    width: 50%;
-    padding-right: 15%;
-    flex-direction: column;
-    font-family: Rowdies;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 45px;
-    display: flex;
-    align-items: center;
 
-    color: #4AB8B9;
+    display: flex;
+    width: 45%;
+    padding-right: 10%;
+    height: 100%;
+     flex-direction: column; 
+    justify-content: space-between;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    border: 4px solid pink;
+    
+}
+
+h2{
+    font-size: 250%;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4ab8b9;
+    border: 1px solid red;
+    margin: 0%;
 }
 
 #texto-quem-somos p {
     padding-top: 5%;
+    border: 1px solid blue;
+    
 }
 
 p {
@@ -117,31 +125,27 @@ p {
 }
 
 .section-equipe {
-    /* position: absolute; */
-    /* width: 1366px;
-    height: 472px; */
-    left: 0px;
-    top: 914px;
+    
+    margin: 10% 10% 5% 10%;
 }
 
 .texto-nossa-equipe {
-    /* position: absolute;
-    /* width: 1136px; */
-    height: 129px; */
-    left: 114px;
-    top: 55px;
 
-    font-family: Rowdies;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 45px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+}
+
+.imagens-membros {
+    display: flex;
+    justify-content: space-between;
     text-align: center;
+    
+}
 
-    color: #4AB8B9;
-
+.figure-membros {
+    border: 1px solid yellow;
+    object-fit: none; 
+    /* contain */
 }
 
 .section-odsatuamos {

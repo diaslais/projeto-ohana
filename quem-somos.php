@@ -17,7 +17,7 @@
         <section class="section-quem-somos">
             
             <div id="texto-quem-somos">
-              <h2>QUEM SOMOS</h2> 
+              <h2>Quem somos</h2> 
                 <p class="p-quem-somos">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
@@ -47,9 +47,31 @@
         <section class="section-equipe">
             
             <div class="texto-nossa-equipe">
-                NOSSA EQUIPE
+                <h2>Nossa equipe</h2>
                 <p class="p-quem-somos">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
+
+            <article class="imagens-membros">
+                
+                <figure class="figure-membros">1
+                    <figcaption> Teste 1 </figcaption>
+                </figure>
+
+                <figure class="figure-membros">2
+                    <figcaption> Teste 2 </figcaption>
+                </figure>
+
+                <div class="figure-membros">3</div> 
+    
+                <!-- colocar imagem ocupando 100% -->
+                
+
+                <div class="figure-membros">4</div>
+                <div class="figure-membros">5</div>
+                <div class="figure-membros">6</div>
+                <div class="figure-membros">7</div>
+            </article>
+
         </section>
 
         <section class="section-odsatuamos">
