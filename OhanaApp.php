@@ -9,10 +9,10 @@
         <div class="parallax" data-parallax="scroll" data-z-index="1" data-position="0px"
             data-image-src="assets/app.jpg"></div>
     </div>
-    <h1 id="ohanaApp">OhanaApp</h1>
+    <h1 class="servicos">OhanaApp</h1>
     <script src="js/script.js"></script>
 
-    <div class="app-container">
+    <div class="descricao-container">
         <h2>Descrição</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta suscipit necessitatibus sapiente magni dolore libero molestias, ab unde iusto officia error, laborum, consequuntur beatae? Vero soluta dolorem non id quisquam explicabo ducimus, facilis quasi, odit mollitia repellendus obcaecati magnam nam molestias deserunt veniam reiciendis praesentium nihil saepe totam! Repudiandae, expedita!</p>
         <div class="apps">
