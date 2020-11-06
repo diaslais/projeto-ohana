@@ -13,6 +13,8 @@
 /* Estilos pertinentes ao footer do site */
 @import url("footer.css");
 
+/*Estilos pertinentes a Pagina Inicial */
+@import url("home.css");
 
 /*Estilos pertinentes a pagina Quem Somos */
 @import url("quem-somos.css");
