@@ -23,14 +23,14 @@
         <section id="section-missao-historia">
 
             <article id="texto-missao">
-                <h2 id="h2-texto-missao-historia" >Missao</h3>
+                <h2 id="h2-texto-missao-historia" >Missão</h3>
                 <p id="p-quem-somos">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
             </article>
 
             <article id="texto-historia">
-                <h2 id="h2-texto-missao-historia">Historia</h2> 
+                <h2 id="h2-texto-missao-historia">História</h2> 
                 <p id="p-quem-somos">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
