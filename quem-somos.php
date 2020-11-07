@@ -90,7 +90,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
              </article>
 
-            
+               
                  <figure id="rectangle-1">
                     <img src="assets/solid-black.jpg" alt=""> 
                 </figure>
@@ -105,4 +105,24 @@
    
         </section>
     </main>
-     <!--<?php include'footer.html';?> -->
+     <?php include'footer.html';?> 
+
+      <!-- Fim do corpo da página -->
+
+
+    <!-- Carregamento de script -->
+
+    <script type="text/javascript">
+        var prevY = window.pageYOffset;
+        window.onscroll = function () {
+            var currentY = window.pageYOffset;
+            if (currentY < prevY) {
+                document.querySelector("header").style.top = "0";
+            }
+            else {
+                document.querySelector("header").style.top = "-100px";
+            }
+            prevY = currentY;
+        }
+    </script>
+
