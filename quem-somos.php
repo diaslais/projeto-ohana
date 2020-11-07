@@ -1,108 +1,101 @@
-     <?php include'header.html';?> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/join.css">
+    
+    <title>Quem Somos</title>
+</head>
 
-    <main>
+<body>
+     <!--<?php include'header.html';?> -->
 
-        <section id="section-quem-somos">
+    <main class="quem-somos-main">
+
+    
+        <section class="section-quem-somos">
             
-            <article id="texto-quem-somos">
-              <h2>Quem somos</h2> 
-                <p id="p-quem-somos">
+            <div id="texto-quem-somos">
+              <h2 class="h2-quem-somos">Quem somos</h2> 
+                <p class="p-quem-somos">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
-            </article>
+            </div>
 
-            <article id="img-quem-somos">
-                <figure>
-
-                <figcaption> Quem somos </figcaption>
-                </figure>
-            </article>
+            <div id="img-quem-somos">
+                <!--<img src="voluntario.png" alt="quem-somos" >-->
+            </div>
             
         </section> 
 
-        <section id="section-missao-historia">
-
-            <article id="texto-missao">
-                <h2 id="h2-texto-missao-historia" >Missao</h3>
-                <p id="p-quem-somos">
+        <section class="section-missao-historia">
+            <div id="texto-historia">
+                Historia
+                <p class="p-quem-somos">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
-            </article>
-
-            <article id="texto-historia">
-                <h2 id="h2-texto-missao-historia">Historia</h2> 
-                <p id="p-quem-somos">
+            </div>
+            <div id="texto-missao">
+                Missao
+                <p class="p-quem-somos">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
-            </article>
-           
+            </div>
         </section>
            
-        <section id="section-equipe">
+        <section class="section-equipe">
             
-            <article id="texto-nossa-equipe">
+            <div class="texto-nossa-equipe">
                 <h2>Nossa equipe</h2>
-                <p id="p-quem-somos">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </article>
+                <p class="p-quem-somos">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
 
-            <article id="imagens-membros">
+            <article class="imagens-membros">
                 
-                <figure id="figure-membros">
-                    <img src="assets/avatar.svg" alt="">
-                    <figcaption> Fulano 1 </figcaption>
+                <figure class="figure-membros">1
+                    <figcaption> Teste 1 </figcaption>
                 </figure>
 
-                <figure id="figure-membros">
-                    <img src="assets/avatar.svg" alt="">
-                    <figcaption> Fulano 2 </figcaption>
+                <figure class="figure-membros">2
+                    <figcaption> Teste 2 </figcaption>
                 </figure>
 
-                <figure id="figure-membros">
-                    <img src="assets/avatar.svg" alt="">
-                    <figcaption> Fulano 3 </figcaption>
-                </figure>
+                <div class="figure-membros">3</div> 
+    
                 <!-- colocar imagem ocupando 100% -->
                 
-                <figure id="figure-membros">
-                    <img src="assets/avatar.svg" alt="">
-                    <figcaption> Fulano 4 </figcaption>
-                </figure>
-                <figure id="figure-membros">
-                    <img src="assets/avatar.svg" alt="">
-                    <figcaption> Fulano 5 </figcaption>
-                </figure>
-                <figure id="figure-membros">
-                    <img src="assets/avatar.svg" alt="">
-                    <figcaption> Fulano 6 </figcaption>
-                </figure>
-                <figure id="figure-membros">
-                    <img src="assets/avatar.svg" alt="">
-                    <figcaption> Fulano 7 </figcaption>
-                </figure>
+
+                <div class="figure-membros">4</div>
+                <div class="figure-membros">5</div>
+                <div class="figure-membros">6</div>
+                <div class="figure-membros">7</div>
             </article>
 
         </section>
 
-        <section id="section-odsatuamos">
+        <section class="section-odsatuamos">
+            <div id="rectangle-4">
 
-            <article id="texto-odsatuamos">
-                <h2>ODS que atuamos</h2>
+            </div>
+
+            <div id="rectangle-3">
+
+            </div>
+
+            <div id="rectangle-2">
+
+            </div>
+
+            <div id="texto-odsatuamos">
+                ODS QUE ATUAMOS
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-             </article>
+            </div>
 
-            
-                 <figure id="rectangle-1">
-                    <img src="assets/solid-black.jpg" alt=""> 
-                </figure>
-
-                 <figure id="rectangle-2">
-                    <img src="assets/solid-yellow.jpg" alt="">
-                </figure>
-
-                <figure id="rectangle-3">
-                    <img src="assets/solid-grey.jpg" alt="">
-                </figure> 
-   
         </section>
     </main>
+
+
      <!--<?php include'footer.html';?> -->
+</body>
+</html>
