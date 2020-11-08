@@ -25,7 +25,7 @@
 
 
         <div class="card">
-            <a href="#"><button>Ciclo de formação</button></a>
+            <a href="ciclo-de-formacao.php"><button>Ciclo de formação</button></a>
         </div>
 
     </div>
