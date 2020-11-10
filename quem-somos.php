@@ -47,35 +47,35 @@
 
             <article id="imagens-membros">
                 
-                <figure id="figure-membros">
+                <figure class="figure-membros">
                     <img src="assets/avatar.svg" alt="">
                     <figcaption> Fulano 1 </figcaption>
                 </figure>
 
-                <figure id="figure-membros">
+                <figure class="figure-membros">
                     <img src="assets/avatar.svg" alt="">
                     <figcaption> Fulano 2 </figcaption>
                 </figure>
 
-                <figure id="figure-membros">
+                <figure class="figure-membros">
                     <img src="assets/avatar.svg" alt="">
                     <figcaption> Fulano 3 </figcaption>
                 </figure>
                 <!-- colocar imagem ocupando 100% -->
                 
-                <figure id="figure-membros">
+                <figure class="figure-membros">
                     <img src="assets/avatar.svg" alt="">
                     <figcaption> Fulano 4 </figcaption>
                 </figure>
-                <figure id="figure-membros">
+                <figure class="figure-membros">
                     <img src="assets/avatar.svg" alt="">
                     <figcaption> Fulano 5 </figcaption>
                 </figure>
-                <figure id="figure-membros">
+                <figure class="figure-membros">
                     <img src="assets/avatar.svg" alt="">
                     <figcaption> Fulano 6 </figcaption>
                 </figure>
-                <figure id="figure-membros">
+                <figure class="figure-membros">
                     <img src="assets/avatar.svg" alt="">
                     <figcaption> Fulano 7 </figcaption>
                 </figure>

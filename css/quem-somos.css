@@ -100,7 +100,7 @@ p {
     text-align: center;
 }
 
-#figure-membros {  
+.figure-membros {  
     object-fit: none;  /* contain */
 }
 
