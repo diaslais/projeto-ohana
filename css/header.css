@@ -85,6 +85,7 @@ header {
   top: 90%;
   border-radius: 0.5vw;
   box-shadow: 8px 9px 5px -4px rgba(117, 117, 117, 0.22);
+  z-index: 4;
 }
 
 .dropdown-list:hover ul {
