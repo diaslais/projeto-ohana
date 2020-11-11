@@ -7,7 +7,7 @@
 
     <div class="layer formacao">
         <div class="parallax" data-parallax="scroll" data-z-index="1" data-position="0px"
-            data-image-src="assets/formacao.jpg"></div>
+            data-image-src="assets/formacao2.jpg"></div>
     </div>
     <h1 class="servicos">Ciclo de Formação</h1>
     <script src="js/script.js"></script>
