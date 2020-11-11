@@ -14,18 +14,19 @@
     <div class="cards-container">
         <div class="card">
             <a class="buttons" href="#"><button>OhanaCast</button></a>
-            <a href="#"><img src="assets/studio.jpg" alt="OhanaCast"></a>
+            <a class="img-container" href="#"><img src="assets/studio.jpg" alt="OhanaCast"></a>
         </div>
 
 
         <div class="card">
             <a href="OhanaApp.php"><button>OhanaApp</button></a>
-            <a href="OhanaApp.php"><img src="assets/app.jpg" alt="OhanaApp"></a>
+            <a class="img-container" href="OhanaApp.php"><img src="assets/app.jpg" alt="OhanaApp"></a>
         </div>
 
 
         <div class="card">
             <a href="ciclo-de-formacao.php"><button>Ciclo de formação</button></a>
+            <a class="img-container" href="ciclo-de-formacao.php"><img src="assets/formacao2.jpg" alt="Ciclo de Formação"></a>
         </div>
 
     </div>
