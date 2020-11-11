@@ -9,7 +9,7 @@
                 <p>A partir desse questionamento, buscamos contribuir com ONGs e OSCIPs por meio da educação 
                     e tecnologia a fim de maximizar o impacto de suas atuações.
                 </p>
-                <a href="#index-oferecemos"><button>Conheça nosso trabalho</button></a>
+                <a href="#index-oferecemos"><button class="index-btn-conheca">Conheça nosso trabalho</button></a>
             </div>
         </div>
 

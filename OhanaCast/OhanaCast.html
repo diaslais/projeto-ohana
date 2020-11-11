@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protótipo Ohana</title>
+
+    <script src="https://kit.fontawesome.com/68fc4c4b56.js"></script>    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="scripts/parallax.min.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+    <link rel="stylesheet" href="css/parallaxSec.css">
+    <link rel="stylesheet" href="css/spotify.css">
+    <link rel="stylesheet" href="../css/join.css">
+    
+    
+</head>
+<body>
+    
+    <header>
+        <div class="logo-container">
+            <img src="../assets/logo.svg" alt="Logo da instituição Projeto Ohana">
+            <a href="#">Ohana</a>
+        </div>
+        <div class="links-container">
+            <ul class="link-list">
+                <li><a href="#">Página Inicial</a></li>
+                <li><a href="#">Quem Somos</a></li>
+
+                <li class="dropdown-list">
+                    <button>
+                        <a href="#">O que Oferecemos?</a>
+                    </button>
+                    
+                    <ul>
+                        <li><a href="#">OhanaCast</a></li>
+                        <li><a href="#">OhanaApp</a></li>
+                        <li><a href="#">Ciclo de Informação</a></li>
+                    </ul>
+
+                </li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><button id="btnDoar" class="btn-border white medium">Doar</button></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="imgSection">
+        <h1 id="ohanaCast">Ohana<br>Cast</h1>
+        <p id="description">Atuamos em ONGs e OSCIPs capacitando-as a fim de que elas consigam aumentar seu impacto na sociedade e gerenciem as áreas da instituição.</p>
+        <div class="parallax" data-parallax="scroll" data-z-index="1" data-position="0px" data-image-src="assets/studio.jpg"></div>
+    </div>
+    <div style="height: 500px; background-color: black;">
+        
+        <iframe class="spotify" src="https://open.spotify.com/embed-podcast/show/2E4mZCOWbrwMGi0Q6dTgBl" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+    <footer>
+        <div class="main-content">
+            <div class="column left-column">
+                <img class="logos ohana-logo" src="./assets/footer-ohana-logo.svg" alt="Logo do projeto Ohana">
+                <img class = "logos enactus-logo" src="./assets/footer-enactus-logo.svg" alt="Logo da Enactus">
+            </div>
+            <div class="column center-column">
+                <a href="#"><i class="fab fa-spotify"></i></a>
+                <a href="#"><i class="fab fa-deezer"></i></a>
+                <a href="https://www.instagram.com/ohanaenactus" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="column right-column">
+                <h4>Localização</h4>
+                <p>Av. Prof. Lineu Prestes, 748<br>
+                    Vila Universitaria, São Paulo - SP, 05508-000</p>
+            </div>
+        </div>
+        <div class="bottom-content">
+            <p>Copyright © 2020 - All rights reserved</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
