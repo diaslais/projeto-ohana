@@ -1,0 +1,19 @@
+.layer.formacao {
+  mix-blend-mode: multiply !important;
+}
+
+.descricao-container.formacao p {
+  padding-bottom: 0;
+}
+
+.formacao-imagens {
+  display: flex;
+  margin: 0 10%;
+  margin-bottom: 5%;
+  justify-content: space-between;
+}
+
+.formacao-imagens img {
+  border-radius: 0.5vw;
+  width: 45%;
+}
