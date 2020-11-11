@@ -31,7 +31,7 @@
                     </a>
                 </div>
                 <div class="index-frente-ciclo">
-                    <a href="#">
+                    <a href="ciclo-de-formacao.php">
                         <img src="./assets/ciclo-ilustracao.svg" alt="Ciclo de formação">
                         <h3>Ciclo de formação</h3>
                         <p>Conjunto de treinamentos</p>
