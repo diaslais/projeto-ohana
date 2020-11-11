@@ -1,24 +1,26 @@
 .imgSection{
     position: relative;
-    
     width: 100%;
     height: 60vw;
     left: 0px;
+
+    
 }
 
 
 .parallax{
-    position: absolute;
+    position: relative;
     
     min-height: 100%;
     min-width: 100%;
     max-height: 600px;
-
+    
     background: #30A1A5;
     mix-blend-mode: darken;
 
-    z-index: 5;
+    z-index: 4;
 }
+
 
 
 
@@ -28,11 +30,10 @@
     font-style: normal;
     font-weight: bold;
     font-size: 15vw;
-    /*line-height: 210px;*/
 
     color: white;
     
-    z-index: 5;
+    
 }
 
 #description{
@@ -43,20 +44,19 @@
     font-weight: bold;
     font-size: 1.6vw;
     line-height: 2vw;
-    color: white;
+    color:white;
     
-    z-index: 5;
 }
 
 #imgText{
     position: absolute;
     justify-content: center;
-    left: 3vw;
+    left: 5%;
     top: 25%;
 
     max-width: 50vw;
     flex-direction: row;
     justify-content: center;
 
-    z-index: 5;
+    z-index: 3;
 }
