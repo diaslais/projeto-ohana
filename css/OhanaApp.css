@@ -56,26 +56,22 @@ header {
   z-index: 3;
 }
 
-.descricao-container {
-  margin: 5% 10%;
-}
-
-.descricao-container h2 {
+/* .descricao-container h2 {
   font-size: 250%;
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   color: #4ab8b9;
-}
+} */
 
-.descricao-container p {
+/* .descricao-container p {
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   font-size: 100%;
   line-height: 1.4rem;
   word-spacing: 0.2rem;
   padding: 5% 0%;
-}
+} */
 
 .apps {
   display: flex;

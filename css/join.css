@@ -27,3 +27,10 @@
 
 /* Estilos pertinentes a pagina ciclo-de-formacao */
 @import url("ciclo-de-formacao.css");
+
+/* Estilos pertinentes as paginas 
+ciclo-de-formacao
+OhanaApp
+OhanaCast
+ */
+@import url("margin-h2-content.css");
