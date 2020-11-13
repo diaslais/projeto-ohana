@@ -34,17 +34,13 @@ header {
 .logo-container {
   display: flex;
   align-items: center;
+  justify-content: center;
+  padding-left: 1.5vw;
 }
 
 .logo-container img {
   width: 5vw;
   margin-right: 0.5vw;
-}
-
-.logo-container a {
-  font-family: "Permanent Marker", cursive;
-  color: #f8fbfb;
-  font-size: 2.2vw;
 }
 
 .btn-border {
