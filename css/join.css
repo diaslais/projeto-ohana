@@ -28,9 +28,15 @@
 /* Estilos pertinentes a pagina ciclo-de-formacao */
 @import url("ciclo-de-formacao.css");
 
-/* Estilos pertinentes as paginas 
-ciclo-de-formacao
-OhanaApp
-OhanaCast
+/* Estilos pertinentes as paginas: 
+- ciclo-de-formacao
+- OhanaApp
+- OhanaCast
  */
 @import url("margin-h2-content.css");
+
+/* Estilos pertinentes ao acessório do Spotify */
+@import url("spotify.css");
+
+/* Estilos pertinentes ao Parallax */
+@import url("parallaxSec.css");
