@@ -7,55 +7,83 @@
 
     <script src="https://kit.fontawesome.com/68fc4c4b56.js"></script>    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="scripts/parallax.min.js"></script>
+    <script src="/js/parallax.min.js"></script>
+    <script src="/js/parallax.js"></script>
 
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 
     <link rel="stylesheet" href="css/parallaxSec.css">
     <link rel="stylesheet" href="css/spotify.css">
-    <link rel="stylesheet" href="../css/join.css">
-    
+    <link rel="stylesheet" href="/css/join.css">
+    <link rel="stylesheet" href="/css/header.css">
     
 </head>
 <body>
     
+    
     <header>
         <div class="logo-container">
             <img src="../assets/logo.svg" alt="Logo da instituição Projeto Ohana">
-            <a href="#">Ohana</a>
+            <a href="index.php">Ohana</a>
         </div>
         <div class="links-container">
             <ul class="link-list">
-                <li><a href="#">Página Inicial</a></li>
-                <li><a href="#">Quem Somos</a></li>
-
-                <li class="dropdown-list">
-                    <button>
-                        <a href="#">O que Oferecemos?</a>
-                    </button>
-                    
-                    <ul>
-                        <li><a href="#">OhanaCast</a></li>
-                        <li><a href="#">OhanaApp</a></li>
-                        <li><a href="#">Ciclo de Informação</a></li>
-                    </ul>
-
+                <li>
+                    <a href="#">Página Inicial</a>
                 </li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contato</a></li>
-                <li><button id="btnDoar" class="btn-border white medium">Doar</button></li>
+                <li>
+                    <a href="/quem-somos.php">Quem Somos</a>
+                </li>
+                <li class="dropdown-list">
+
+
+                    <div class="dropdown-head">
+                        <button>
+                            <a href="o-que-oferecemos.php">O que oferecemos? </a>
+                        </button>
+                        <div class="container-icon">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+
+
+                    <ul>
+                        <li>
+                            <a href="OhanaCast.php">OhanaCast</a>
+                        </li>
+                        <li>
+                            <a href="OhanaApp.php">OhanaApp</a>
+                        </li>
+                        <li>
+                            <a href="ciclo-de-formacao.php">Ciclo de formação</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">Contato</a>
+                </li>
+                <li>
+                    <button id="btnDoar" class="btn-border white medium">Doar</button>
+                </li>
             </ul>
         </div>
     </header>
 
     <div class="imgSection">
-        <h1 id="ohanaCast">Ohana<br>Cast</h1>
-        <p id="description">Atuamos em ONGs e OSCIPs capacitando-as a fim de que elas consigam aumentar seu impacto na sociedade e gerenciem as áreas da instituição.</p>
         <div class="parallax" data-parallax="scroll" data-z-index="1" data-position="0px" data-image-src="assets/studio.jpg"></div>
+        <div id="imgText">
+            <h1 id="ohanaCast">Ohana<br>Cast</h1>
+            <p id="description">Atuamos em ONGs e OSCIPs capacitando-as a fim de que elas consigam aumentar seu impacto na sociedade e gerenciem as áreas da instituição.</p>
+        </div>
     </div>
+    
+
     <div style="height: 500px; background-color: black;">
-        
         <iframe class="spotify" src="https://open.spotify.com/embed-podcast/show/2E4mZCOWbrwMGi0Q6dTgBl" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
 
     <footer>
         <div class="main-content">
@@ -79,6 +107,18 @@
         </div>
     </footer>
     <script src="script.js"></script>
-    
+    <script type="text/javascript">
+        var prevY = window.pageYOffset;
+        window.onscroll = function () {
+            var currentY = window.pageYOffset;
+            if (currentY < prevY) {
+                document.querySelector("header").style.top = "0";
+            }
+            else {
+                document.querySelector("header").style.top = "-100px";
+            }
+            prevY = currentY;
+        }
+    </script>
 </body>
 </html>
