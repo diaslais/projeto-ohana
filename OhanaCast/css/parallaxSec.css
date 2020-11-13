@@ -6,7 +6,7 @@
     
 } 
 
-/*
+/* 
 background: #30A1A5;
     mix-blend-mode: darken;
 
@@ -49,13 +49,12 @@ background: #30A1A5;
 
 #imgText{
     position: absolute;
-    justify-content: left;
     left: 5%;
     top: 40%;
 
     max-width: 50vw;
-    flex-direction: row;
-    justify-content: center;
+    
+    /*justify-content: center;*/
 
     z-index: 3;
 }

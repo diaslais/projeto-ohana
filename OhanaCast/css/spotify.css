@@ -1,6 +1,12 @@
+.castContent{
+    display: flex;
+    justify-content: center;
+}
+
 .spotify{
-    position: absolute;
-    top: 50%;
-    width: 100%; 
+    position: relative;
+    top: 12vw;
+    width: 85vw; 
     height: 50vw;
+    
 }
