@@ -5,11 +5,20 @@ OhanaCast
  */
 
 .page-content {
-  margin: 5% 10%;
+  margin: 10%;
+}
+
+.page-content h1 {
+  color: #fcc63e;
+  font-size: 2.5rem;
+  font-family: "Rowdies", cursive;
+  text-transform: uppercase;
+  text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2);
+  /* margin-bottom: 4%; */
 }
 
 .page-content h2 {
-  font-size: 250%;
+  font-size: 2.4rem;
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -18,7 +27,7 @@ OhanaCast
 
 .page-content p {
   font-family: "Ubuntu", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 100%;
   line-height: 1.4rem;
   word-spacing: 0.2rem;

@@ -5,17 +5,18 @@
 
     <!-- inicio do corpo da pagina  -->
 
-    <div class="layer formacao">
-        <div class="parallax" data-parallax="scroll" data-z-index="1" data-position="0px"
-            data-image-src="assets/formacao2.jpg"></div>
-    </div>
-    <h1 class="servicos">Ciclo de Formação</h1>
-    <script src="js/script.js"></script>
+    
+    
+    
 
     <div class="page-content">
+        <h1>Ciclo de Formação</h1>
+
         <div class="descricao-container formacao">
-            <h2>Descrição</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta suscipit necessitatibus sapiente magni dolore libero molestias, ab unde iusto officia error, laborum, consequuntur beatae? Vero soluta dolorem non id quisquam explicabo ducimus, facilis quasi, odit mollitia repellendus obcaecati magnam nam molestias deserunt veniam reiciendis praesentium nihil saepe totam! Repudiandae, expedita!</p>
+            <p>O Ciclo de formações se consiste em um conjunto de treinamentos voltados para gestão
+            de internas de ONGs e OSCIPs neles abordamos assuntos como: marketing para redes
+            sociais, gestão de pessoas, controle financeiro, arrecadação de recursos e etc.
+            </p>
             
         </div>
 

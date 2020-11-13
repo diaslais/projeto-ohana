@@ -3,6 +3,10 @@
   mix-blend-mode: multiply !important;
 }
 
+.descricao-container {
+  margin-bottom: 5%;
+}
+
 .descricao-container.formacao p {
   padding-bottom: 0;
 }
