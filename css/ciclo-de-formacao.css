@@ -1,18 +1,46 @@
 .layer.formacao {
-  background-color: #514c4c !important;
-  mix-blend-mode: multiply !important;
+  /* background-color: #514c4c !important;
+  mix-blend-mode: multiply !important; */
 }
 
-.descricao-container {
-  margin-bottom: 5%;
+.formacao-headline {
+  background: url(../assets/formacao2.jpg) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #716d6d;
+  background-blend-mode: multiply;
 }
 
-.descricao-container.formacao p {
-  padding-bottom: 0;
+.formacao-headline .headline-itens {
+  /* margin: 10% 5%; */
+  margin-top: 15%;
+  padding: 0 8.3%;
 }
 
-.descricao-container.formacao {
-  padding-bottom: 5%;
+.formacao-headline h1 {
+  color: #fcc63e;
+  font-size: 2.5rem;
+  font-family: "Rowdies", cursive;
+  text-transform: uppercase;
+  text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2);
+
+  margin-bottom: 4%;
+}
+
+.formacao-headline p {
+  color: #fff;
+  max-width: 50%;
+  text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.6);
+  line-height: 1.4rem;
+  margin-bottom: 4%;
+  font-size: 1.1rem;
+  word-spacing: 0.2rem;
+  line-height: 1.4rem;
+  text-align: justify;
 }
 
 .lista-img-container {
@@ -25,47 +53,50 @@
 }
 
 .participantes-lista {
-  width: 55%;
-}
-
-.participantes-container ul {
   display: flex;
-  justify-content: space-around;
   flex-direction: column;
-  height: 100%;
+  justify-content: space-between;
+  width: 50%;
 }
 
-.participantes-container ul a {
-  display: inline-block;
+.list-block {
+  /* padding-bottom: 3%; */
+  padding-bottom: 3%;
+}
+
+.list-block p {
+  padding-left: 2.5% !important;
+}
+
+.list-logo {
+  display: flex;
+  align-items: center;
+  padding-left: 2.5%;
+  padding-bottom: 1%;
+  border-bottom: 0.3vw solid #fcc63e;
+}
+
+.list-logo img {
+  width: 4vw;
+}
+
+.list-logo h3 {
   font-size: 2.5vw;
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   color: #fdc204;
-}
-
-.participantes-container ul a:hover {
-  opacity: 60%;
-}
-
-.participantes-container li p {
-  display: inline-block;
-  padding-left: 2.5%;
-
-  color: black;
+  padding-left: 10%;
 }
 
 .formacao-imagens {
   display: flex;
-  /* margin: 0 10%; */
-  /* margin-bottom: 5%; */
-  /* justify-content: space-between;  */
   width: 45%;
-  justify-content: space-around;
+  align-content: center;
 }
 
 .formacao-imagens img {
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 0.5vw;
   width: 100%;
 }
