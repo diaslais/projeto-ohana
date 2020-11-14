@@ -9,9 +9,9 @@
     <div class="formacao-headline">
         <div class="headline-itens">
             <h1>Ciclo de Formação</h1>
-        
-            
-            <p>O Ciclo de formações se consiste em um conjunto de treinamentos voltados para gestão
+
+            <p>
+                O Ciclo de formações se consiste em um conjunto de treinamentos voltados para gestão
                 de internas de ONGs e OSCIPs neles abordamos assuntos como: marketing para redes
                 sociais, gestão de pessoas, controle financeiro, arrecadação de recursos e etc.
             </p>
