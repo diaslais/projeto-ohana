@@ -1,5 +1,3 @@
-
-
     <!-- Carrega arquivo header INTEIRO -->
     <?php  include 'header.html'; ?>
     
