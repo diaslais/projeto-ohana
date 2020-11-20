@@ -1,5 +1,5 @@
 <!-- header -->
-<?php include 'header.html'; ?>
+<?php include 'responsive-header.html'; ?>
 
 <!-- main -->
 <main class="index-main">

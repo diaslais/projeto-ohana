@@ -8,12 +8,12 @@
 @import url("fonts.css");
 
 /* Estilos pertinentes ao header do site */
-@import url("header.css");
+@import url("responsive-header.css");
 
 /* Estilos pertinentes ao footer do site */
 @import url("footer.css");
 
-/*Estilos pertinentes a Pagina Inicial */
+/*Estilos pertinentes a Página Inicial */
 @import url("index.css");
 
 /*Estilos pertinentes a pagina Quem Somos */
