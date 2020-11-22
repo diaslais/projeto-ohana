@@ -2,19 +2,28 @@ body {
     background-color: #f5f5f5;
 }
 
-header {
+.header {
     background-color: #4ab8b9;
     position: fixed;
     top: 0;
     width: 100%;
 }
 
-header a {
+.header a {
     color: #fff;
 }
 
-header a:hover {
+.header a:hover {
     color: #fff;
+}
+
+.header .navbar-nav {
+    display: flex;
+}
+
+.header .menulinks {
+    display: flex;
+    padding-top: 0.3rem;
 }
 
 nav.navbar {
@@ -54,7 +63,7 @@ a.nav-link {
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
     margin: 0;
-    padding: 0.3rem 0 0.1rem;
+    padding: 0.3rem 0;
     border-bottom: transparent 4px solid;
 }
 
@@ -70,6 +79,7 @@ nav.navbar-expand-lg .navbar-nav .nav-link {
 }
 
 button.btn-outline-light {
+    font-family: "Ubuntu", sans-serif;
     margin-left: 0.6rem;
     padding: 0.2rem 2.5rem;
     font-weight: 700;
@@ -96,10 +106,11 @@ li.dropdown:hover .dropdown-menu {
 }
 
 a.dropdown-item {
+    font-family: "Ubuntu", sans-serif;
     text-align: center;
     font-weight: 700;
     color: #4ab8b9;
-    padding: 0.5rem 2.5rem;
+    padding: 0.8rem 2.5rem;
 }
 
 a.dropdown-item:focus, a.dropdown-item:hover {
@@ -108,12 +119,12 @@ a.dropdown-item:focus, a.dropdown-item:hover {
     transition: 0.2s;
 }
 
-.dropdown i.fa-chevron-down {
+.dropdown .fa-chevron-down {
     font-size: 0.7rem;
     transition: 0.6s;
 }
 
-.dropdown:hover i.fa-chevron-down {
+.dropdown:hover .fa-chevron-down {
     transform: rotate(180deg);
     transition: 0.6s;
 }
@@ -126,7 +137,11 @@ a.dropdown-item:focus, a.dropdown-item:hover {
     }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 991px) {    
+    .header .menulinks {
+        flex-direction: column;
+    }
+
     a.nav-link {
         padding: 0.5rem;
         border-bottom: none;
