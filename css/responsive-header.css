@@ -1,188 +1,190 @@
 body {
-    background-color: #f5f5f5;
+  background-color: #f5f5f5;
 }
 
 .header {
-    background-color: #4ab8b9;
-    position: fixed;
-    top: 0;
-    width: 100%;
+  background-color: #4ab8b9;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .header a {
-    color: #fff;
+  color: #fff;
 }
 
 .header a:hover {
-    color: #fff;
+  color: #fff;
 }
 
 .header .navbar-nav {
-    display: flex;
+  display: flex;
 }
 
 .header .menulinks {
-    display: flex;
-    padding-top: 0.3rem;
+  display: flex;
+  padding-top: 0.3rem;
 }
 
 nav.navbar {
-    padding: 0.2rem 0;
+  padding: 0.2rem 0;
 }
 
 .menu-logo {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .ohana-menu-logo img {
-    width: 4.2rem;
-    margin-right: 0.8rem;
+  width: 4.2rem;
+  margin-right: 0.8rem;
 }
 
 .ohana-menu-name img {
-    width: 6rem;
+  width: 6rem;
 }
 
 a.navbar-brand {
-    font-family: "Permanent Marker", cursive;
-    font-size: 1.8rem;
-    margin-left: 0.5rem;
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.8rem;
+  margin-left: 0.5rem;
 }
 
 .navbar-nav {
-    display: inline;
+  display: inline;
 }
 
 li.nav-item {
-    margin: 0 0.8rem;
-    padding: 0;
+  margin: 0 0.8rem;
+  padding: 0;
 }
 
 a.nav-link {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 700;
-    margin: 0;
-    padding: 0.3rem 0;
-    border-bottom: transparent 4px solid;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  margin: 0;
+  padding: 0.3rem 0;
+  border-bottom: transparent 4px solid;
 }
 
 a.nav-link:hover {
-    font-family: "Ubuntu", sans-serif;
-    border-bottom: #FCC63E 4px solid;
-    transition: 0.2s;
+  font-family: "Ubuntu", sans-serif;
+  border-bottom: #fcc63e 4px solid;
+  transition: 0.2s;
 }
 
 nav.navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 0.2rem;
-    padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  padding-left: 0.2rem;
 }
 
 button.btn-outline-light {
-    font-family: "Ubuntu", sans-serif;
-    margin-left: 0.6rem;
-    padding: 0.2rem 2.5rem;
-    font-weight: 700;
-    border: #fff 2px solid;
+  font-family: "Ubuntu", sans-serif;
+  margin-left: 0.6rem;
+  padding: 0.2rem 2.5rem;
+  font-weight: 700;
+  border: #fff 2px solid;
 }
 
 button.btn-outline-light:hover {
-    color: #4ab8b9;
+  color: #4ab8b9;
 }
 
 button.navbar-toggler {
-    font-size: 1.8rem;
-    color: #fff;
-    padding: 0;
+  font-size: 1.8rem;
+  color: #fff;
+  padding: 0;
 }
 
 .dropdown-menu {
-    box-shadow: 2px 2px 4px 0 rgba(0,0,0,0.1), 0 4px 8px 0 rgba(0,0,0,0.1);
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.1), 0 4px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
 li.dropdown:hover .dropdown-menu {
-    border-radius: 7px;
-    border: none;
+  border-radius: 7px;
+  border: none;
 }
 
 a.dropdown-item {
-    font-family: "Ubuntu", sans-serif;
-    text-align: center;
-    font-weight: 700;
-    color: #4ab8b9;
-    padding: 0.8rem 2.5rem;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  font-weight: 700;
+  color: #4ab8b9;
+  padding: 0.8rem 2.5rem;
 }
 
-a.dropdown-item:focus, a.dropdown-item:hover {
-    background-color: #fff;
-    color: #FCC63E;
-    transition: 0.2s;
+a.dropdown-item:focus,
+a.dropdown-item:hover {
+  background-color: #fff;
+  color: #fcc63e;
+  transition: 0.2s;
 }
 
 .dropdown .fa-chevron-down {
-    font-size: 0.7rem;
-    transition: 0.6s;
+  font-size: 0.7rem;
+  transition: 0.6s;
 }
 
 .dropdown:hover .fa-chevron-down {
-    transform: rotate(180deg);
-    transition: 0.6s;
+  transform: rotate(180deg);
+  transition: 0.6s;
 }
 
- @media (min-width: 992px) {  
-    .dropdown:hover .dropdown-menu {
-        display: block;
-        margin-top: 0;
-        border-radius: 0;
-    }
+@media (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    border-radius: 0;
+  }
 }
 
-@media (max-width: 991px) {    
-    .header .menulinks {
-        flex-direction: column;
-    }
+@media (max-width: 991px) {
+  .header .menulinks {
+    flex-direction: column;
+  }
 
-    a.nav-link {
-        padding: 0.5rem;
-        border-bottom: none;
-    }
+  a.nav-link {
+    padding: 0.5rem;
+    border-bottom: none;
+  }
 
-    a.nav-link:hover {
-        border-bottom: none;
-        transition: 0.2s;
-    }
+  a.nav-link:hover {
+    border-bottom: none;
+    transition: 0.2s;
+  }
 
-    button.btn-outline-light{
-        margin: 0.7rem 0 1rem 0.8rem;
-        max-width: 10rem;
-        padding: 0.3rem 1em;
-    }
+  button.btn-outline-light {
+    margin: 0.7rem 0 1rem 0.8rem;
+    max-width: 10rem;
+    padding: 0.3rem 1em;
+  }
 
-    .dropdown-menu {
-        box-shadow: none;
-    }
+  .dropdown-menu {
+    box-shadow: none;
+  }
 
-    div.dropdown-menu.show {
-        border: none;
-        padding: 0;
-        background-color: #4ab8b9;
-    }
-    
-    a.dropdown-item {
-        text-align: left;
-        color: #fff;
-        font-weight: 500;
-        padding: 0rem 2rem;
-        font-family: "Ubuntu", sans-serif;
-    }
+  div.dropdown-menu.show {
+    border: none;
+    padding: 0;
+    background-color: #4ab8b9;
+  }
 
-    div.dropdown-divider {
-        border-top: none;
-    }
+  a.dropdown-item {
+    text-align: left;
+    color: #fff;
+    font-weight: 500;
+    padding: 0rem 2rem;
+    font-family: "Ubuntu", sans-serif;
+  }
 
-    a.dropdown-item:focus, a.dropdown-item:hover {
-        background-color: #4ab8b9;
-        color: #fff;
-        transition: 0;
-    }
+  div.dropdown-divider {
+    border-top: none;
+  }
+
+  a.dropdown-item:focus,
+  a.dropdown-item:hover {
+    background-color: #4ab8b9;
+    color: #fff;
+    transition: 0;
+  }
 }

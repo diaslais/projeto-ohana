@@ -1,6 +1,6 @@
 
     <!-- carregamento do arquivo header INTEIRO -->
-    <?php  include 'header.html'; ?>   
+    <?php  include 'responsive-header.html'; ?>   
 
 
     <!-- inicio do corpo da pagina  -->

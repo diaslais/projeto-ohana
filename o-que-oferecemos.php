@@ -1,5 +1,5 @@
     <!-- Carrega arquivo header INTEIRO -->
-    <?php  include 'header.html'; ?>
+    <?php  include 'responsive-header.html'; ?>
     
 
     <!-- Corpo da página -->
