@@ -1,65 +1,38 @@
-
 <header class="header">
-    <nav class="navbar navbar-expand-lg">
+    <nav class="nav">
         <div class="menu-logo">
-            <a class="ohana-menu-logo" href="index.php">
-                <img src="assets/logo_coracao.png" alt="Logo da instituição Projeto Ohana">
-            </a>
-            <a class="ohana-menu-name" href="index.php">
-                <img src="assets/logo_nome.png" alt="Nome Ohana">
-            </a>
+            <div class="nav-logo">
+                <a class="ohana-menu-logo" href="index.html">
+                    <img src="assets/logo_coracao.png" alt="Logo da instituição Projeto Ohana">
+                </a>
+                <a class="ohana-menu-name" href="index.html">
+                    <img src="assets/logo_nome.png" alt="Nome Ohana">
+                </a>
+            </div>
+            <div class="nav-hamburguer">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContentLG"
-            aria-controls="navbarSupportedContentLG" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContentLG">
-            <ul class="navbar-nav w-100 justify-content-end" id="navbar-nav">
-                <div class="menulinks">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.php">Página inicial</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="quem-somos.php">Quem somos</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown" href="o-que-oferecemos.php" id="navbarDropdownLG" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            O que oferecemos
-                            <i class="fas fa-chevron-down"></i>
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownLG">
-                            <a class="dropdown-item" href="#">OhanaCast</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="OhanaApp.php">OhanaApp</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="ciclo-de-formacao.php">Ciclo de formação</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://projeto-ohana.wixsite.com/blogohana" target="_blank">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contato</a>
-                    </li>
-                </div>                    
-                <button type="button" class="btn btn-outline-light">Doar</button>
+
+        <div class="menu-container">
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a href="index.html">Página inicial</a></li>
+                <li class="nav-menu-item"><a href="quem-somos.html">Quem somos</a></li>
+                <li class="nav-menu-item item-dropdown"><a href="o-que-oferecemos.html">O que oferecemos <i
+                            class="fas fa-chevron-down"></i></a>
+                    <div class="nav-dropdown-items">
+                        <ul class="nav-dropdown">
+                            <li class=" nav-dropdown-item"><a href="OhanaCast.html">OhanaCast</a></li>
+                            <li class="nav-dropdown-item"><a href="OhanaApp.html">OhanaApp</a></li>
+                            <li class="nav-dropdown-item-last"><a href="ciclo-de-formacao.html">Ciclo de formação</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-menu-item"><a href="#">Blog</a></li>
+                <li class="nav-menu-item"><a href="#">Contato</a></li>
+                <li class="nav-menu-donate"><a href="#">Doar</a></li>
             </ul>
         </div>
     </nav>
 </header>
-
-<!-- <script src="js/header.js"></script> -->
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-    crossorigin="anonymous"></script>
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"
-    integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ=="
-    crossorigin="anonymous"></script>
-    
+<script src="js/responsive-header.js"></script>
