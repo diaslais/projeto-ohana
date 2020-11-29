@@ -21,23 +21,24 @@ body {
 }
 
 .nav-logo {
-  padding: .2rem .7rem .2rem;
+  padding: 0.2rem 0.7rem 0.2rem;
   display: flex;
   align-items: center;
 }
 
 .ohana-menu-logo img {
   width: 4rem;
-  margin-right: .6rem;
+  margin-right: 0.6rem;
 }
 
 .ohana-menu-name img {
   width: 5rem;
 }
 
-.nav-menu .nav-menu-item, .nav-menu-donate {
+.nav-menu .nav-menu-item,
+.nav-menu-donate {
   display: inline-block;
-  padding: 1rem .6rem;
+  padding: 1rem 0.6rem;
 }
 
 .nav-menu .nav-menu-item > a {
@@ -45,7 +46,7 @@ body {
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   margin: 0;
-  padding: .3rem 0;
+  padding: 0.3rem 0;
   border-bottom: transparent 4px solid;
   transition: 0.3s;
 }
@@ -55,16 +56,20 @@ body {
   transition: 0.3s;
 }
 
+a.active {
+  border-bottom: #fcc63e 4px solid;
+}
+
 .nav-menu-donate {
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
-  padding: .3rem .9rem;
+  padding: 0.3rem 0.9rem;
 }
 
 .nav-menu-donate a {
-  padding: .6rem 2.3rem;
+  padding: 0.6rem 2.3rem;
   border: #fff 2px solid;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
   display: block;
   transition: 0.5s;
 }
@@ -76,8 +81,8 @@ body {
 }
 
 .item-dropdown .fa-chevron-down {
-  padding-left: .1rem;
-  font-size: .8rem;
+  padding-left: 0.1rem;
+  font-size: 0.8rem;
   transition: 0.5s;
 }
 
@@ -90,7 +95,7 @@ body {
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   position: absolute;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
   min-width: 200px;
   background-color: #fff;
   color: #4ab8b9;
@@ -98,16 +103,18 @@ body {
   text-align: center;
 }
 
-.nav-dropdown-item, .nav-dropdown-item-last {
+.nav-dropdown-item,
+.nav-dropdown-item-last {
   display: block;
-  padding: 1.3rem .3rem;
+  padding: 1.3rem 0.3rem;
 }
 
 .nav-dropdown-item {
   border-bottom: #ececec 2px solid;
 }
 
-.nav-menu .nav-dropdown .nav-dropdown-item:hover, .nav-dropdown-item-last:hover {
+.nav-menu .nav-dropdown .nav-dropdown-item:hover,
+.nav-dropdown-item-last:hover {
   transition: 0.3s;
   color: #fcc63e;
 }
@@ -117,7 +124,7 @@ body {
 }
 
 .nav-hamburguer {
-  padding: .6rem;
+  padding: 0.6rem;
   font-size: 1.5rem;
   display: none;
 }
@@ -128,14 +135,14 @@ body {
   }
 
   .nav-logo {
-    padding: .5rem 1.5rem;
+    padding: 0.5rem 1.5rem;
   }
 
   .ohana-menu-logo img {
     width: 3.5rem;
     margin-right: 0.8rem;
   }
-  
+
   .ohana-menu-name img {
     width: 5rem;
   }
@@ -157,16 +164,16 @@ body {
   }
 
   .nav-menu .nav-menu-item {
-    padding: .3rem 1rem;
+    padding: 0.3rem 1rem;
     display: block;
   }
 
   .nav-menu-donate {
-    margin-bottom: .8rem;
+    margin-bottom: 0.8rem;
   }
 
-  .nav-menu-donate a{
-    padding: .4rem 2.3rem;
+  .nav-menu-donate a {
+    padding: 0.4rem 2.3rem;
   }
 
   .nav-menu .nav-menu-item > a:hover {
@@ -183,8 +190,9 @@ body {
     border-bottom: none;
   }
 
-  .nav-dropdown-item, .nav-dropdown-item-last {
-    padding: .5rem .3rem;
+  .nav-dropdown-item,
+  .nav-dropdown-item-last {
+    padding: 0.5rem 0.3rem;
   }
 
   .nav-menu .nav-dropdown-item:hover {
