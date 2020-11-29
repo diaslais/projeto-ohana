@@ -1,5 +1,6 @@
 .index-main {
   font-family: "Ubuntu", sans-serif;
+  padding-bottom: 6%;
 }
 
 .index-btn-conheca {
@@ -13,7 +14,12 @@
 .index-main h3 {
   font-weight: 700;
   font-size: 1.25rem;
-  margin-bottom: 0.5rem;
+}
+
+.index-main h4 {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: .6rem;
 }
 
 .index-headline-content {
@@ -48,7 +54,7 @@
 }
 
 .index-headline-content button {
-  background-color: #c2c2c2;
+  background-color:#fff;
   border: none;
   color: #212121;
   padding: 1.4rem 4.5rem;
@@ -57,73 +63,100 @@
   font-weight: 700;
   border-radius: 5px;
   box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
   cursor: pointer;
 }
 
 .index-headline-content button:hover {
-  background-color: #fff;
+  background-color: #cfcfcf;
   transition: 0.5s;
 }
 
 .index-container-oferecemos {
-  padding: 10% 8.3% 0;
+  padding: 10% 8.3% 6%;
+  display: flex;
 }
 
-.index-container-oferecemos > h2 {
+.index-container-oferecemos h2 {
   font-family: "Rowdies", cursive;
   text-transform: uppercase;
   color: #4ab8b9;
   font-size: 2.3rem;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
-.index-container-oferecemos > p {
-  margin-bottom: 2rem;
+.index-container-oferecemos h3 {
+  margin-bottom: 0;
+}
+
+.index-container-oferecemos p {
+  margin-bottom: .8rem;
 }
 
 .index-nossas-frentes {
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.index-frentes-imgs {
+  max-width: 100%;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
-  text-align: center;
-  margin-bottom: 2rem;
 }
 
 .index-nossas-frentes img {
-  max-width: 120px;
-  margin: 0 3rem 1rem;
+  max-width: 90px;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+}
+
+.index-frentes-imgs .frente {
+  border: #e0e0e0 3px solid;
+  border-radius: .6rem;
+  padding: .5rem;
+  width: 33%;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.index-frentes-imgs .frente:hover {
+  border: #4ab8b9 3px solid;
+  transition: 0.5s;
+}
+
+.index-frente-ohanacast, .index-frente-ohanaapp {
+  margin-right: 1rem;
 }
 
 .index-pesquisa-ohana {
-  margin-top: 3rem;
-  text-align: center;
+  padding: 8% 0 0 8.3%;
+  width: 50%;
 }
 
 .index-pesquisa-ohana > p {
-  margin: 2rem 0 3rem;
-  text-align: justify;
+  margin: 1rem 0 2rem;
 }
 
-.index-pesquisa-ohana > a {
-  border: #1c8182 3px solid;
+.index-pesquisa-ohana a {
+  border: #4ab8b9 3px solid;
   border-radius: 5px;
   padding: 1rem 3rem;
-  color: #1c8182;
+  color: #4ab8b9;
   font-weight: 700;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 .index-pesquisa-ohana > a:hover {
-  /* border: #4ab8b9 3px solid;
-    color: #4ab8b9; */
   background-color: #4ab8b9;
   color: #fff;
   transition: 0.5s;
 }
 
 .index-container-impactos {
-  padding: 10% 8.3% 0;
+  padding: 6% 8.3%;
   display: flex;
+  align-items: flex-end;
 }
 
 .index-container-impactos h2 {
@@ -143,24 +176,22 @@
 }
 
 .index-impactos-text {
-  text-align: justify;
   width: 50%;
-  padding: 8.3% 0 0 8.3%;
+  padding: 0 8.3% 0 0;
 }
 
 .index-impactos-text > h2 {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .index-container-parcerias {
-  padding: 10% 8.3% 9%;
+  padding: 6% 8.3%;
   display: flex;
 }
 
 .index-parcerias-text {
-  text-align: justify;
   width: 50%;
-  padding: 0 8.3% 0 0;
+  padding: 0 0 0 8.3%;
 }
 
 .index-parcerias-text h2 {
@@ -168,7 +199,7 @@
   text-transform: uppercase;
   color: #4ab8b9;
   font-size: 2.3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .index-parceiros {
@@ -203,9 +234,85 @@
   .index-headline-content button {
     margin: 2rem 0 6rem;
   }
+
+  .index-container-oferecemos {
+    flex-direction: column;
+  }
+
+  .index-container-oferecemos h2,
+  .index-container-impactos h2,
+  .index-container-parcerias h2 {
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .index-frentes-imgs .frente {
+    height: 15rem;
+    width: 10rem;
+  }
+
+  .index-nossas-frentes {
+    width: auto;
+  }
+
+  .index-frentes-imgs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .index-frente-ohanacast,
+  .index-frente-ohanaapp {
+    margin: 0 .3rem 0 0;
+  }
+
+  .index-pesquisa-ohana {
+    width: auto;
+    margin-top: 1.5rem;
+    padding: 0;
+  }
+
+  .index-pesquisa-ohana a {
+    padding: 0.7rem 1.5rem;
+  }
+
+  .index-container-impactos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .index-impactos-text {
+    width: auto;
+    padding: 0;
+  }
+
+  .index-impactos-ilustra {
+    width: auto;
+  }
+
+  .index-impactos-ilustra img {
+    max-width: 80vw;
+  }
+
+  .index-container-parcerias {
+    flex-direction: column-reverse;
+  }
+
+  .index-parcerias-text {
+    padding: 0;
+    width: auto;
+  }
+
+  .index-parcerias-logos {
+    margin-top: 1.5rem;
+    width: auto;
+    flex-direction: row;
+  }
+
 }
 
 @media (max-width: 768px) {
+
   .index-headline-content {
     height: auto;
   }
@@ -226,10 +333,16 @@
   }
 
   .index-headline-content button {
-    padding: 1rem 2rem;
+    padding: 1.2rem 3rem;
     text-align: center;
-    font-size: 0.7rem;
-    margin: 2rem 0 3rem;
+    font-size: .9rem;
+    margin: 2rem 0 3.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .index-container-oferecemos {
+    flex-direction: column;
   }
 
   .index-container-oferecemos h2,
@@ -239,50 +352,41 @@
     margin-bottom: 1.5rem;
   }
 
+  .index-frentes-imgs .frente {
+    width: 10rem;
+  }
+
   .index-nossas-frentes {
+    width: auto;
+  }
+
+  .index-frentes-imgs {
+    display: flex;
     flex-direction: column;
     align-items: center;
   }
 
   .index-frente-ohanacast,
   .index-frente-ohanaapp {
-    margin-bottom: 1.5rem;
+    margin: 0 0 1.5rem;
   }
 
   .index-pesquisa-ohana {
+    width: auto;
     margin-top: 1.5rem;
+    padding: 0;
   }
 
-  .index-pesquisa-ohana > p {
-    margin: 1rem 0 2.5rem;
-  }
-
-  .index-pesquisa-ohana > a {
+  .index-pesquisa-ohana a {
     padding: 0.7rem 1.5rem;
   }
 
-  .index-container-impactos {
-    flex-direction: column;
-  }
-
-  .index-impactos-text {
-    width: auto;
-    padding: 8.3% 0 0 0;
-  }
-
-  .index-impactos-ilustra {
-    width: auto;
-  }
-
-  .index-impactos-ilustra img {
-    max-width: 60vw;
-  }
-
   .index-container-parcerias {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .index-parcerias-text {
+    padding: 0;
     width: auto;
   }
 
@@ -293,6 +397,6 @@
   }
 
   .index-parceiros {
-    margin: 0.5rem 0;
+    margin: .5rem 0;
   }
 }
