@@ -56,8 +56,8 @@ body {
   transition: 0.3s;
 }
 
-a.active {
-  border-bottom: #fcc63e 4px solid;
+.active {
+  border-bottom: #fcc63e 4px solid !important;
 }
 
 .nav-menu-donate {
