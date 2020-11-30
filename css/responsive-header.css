@@ -119,6 +119,12 @@ body {
   color: #fcc63e;
 }
 
+.nav-dropdown .nav-dropdown-item .active,
+.nav-dropdown-item-last .active {
+  color: #fcc63e !important;
+  border-bottom: none !important;
+}
+
 .nav-menu .nav-menu-item:hover .nav-dropdown {
   display: block;
 }
