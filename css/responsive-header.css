@@ -56,7 +56,7 @@ body {
   transition: 0.3s;
 }
 
-.active {
+.nav-menu-item .active {
   border-bottom: #fcc63e 4px solid !important;
 }
 
@@ -78,6 +78,10 @@ body {
   background-color: #fff;
   color: #4ab8b9;
   transition: 0.5s;
+}
+
+.nav-menu-donate a.active {
+  border: #fcc63e 2px solid !important;
 }
 
 .item-dropdown .fa-chevron-down {
