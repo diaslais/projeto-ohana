@@ -53,23 +53,10 @@
     </div>
 
    <div id="footer"></div>
+   
+    <!-- Rolamento do Header -->
+    <script src="js/header_scroll.js"></script>
 
-    <script type="text/javascript">
-
-        var prevY = window.pageYOffset;
-        window.onscroll = function () {
-            var currentY = window.pageYOffset;
-            var headerStyle = document.querySelector("header").style; 
-            if (currentY < prevY) {
-                headerStyle.top = "0";
-            }
-            else {
-                headerStyle.top = "-100px";
-            }
-            console.log(headerStyle.height);
-            prevY = currentY;
-        }
-    </script>
     <script>
         var parallax = document.getElementsByClassName("parallax");
         
