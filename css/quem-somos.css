@@ -1,217 +1,203 @@
 #section-quem-somos {
-    margin: 10% 10% 5% 10%;
-    display: flex;
-    /* border: 1px solid black; */
+  margin: 10% 10% 5% 10%;
+  display: flex;
+  /* border: 1px solid black; */
 }
 
 #texto-quem-somos {
-    width: 50%;
-    height: 100%;
+  width: 50%;
+  height: 100%;
 
-    flex-direction: column; 
-    justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
 
-    padding-top: 0;
-    padding-bottom: 5%;
-    padding-right: 10%;
-    /* border: 1px solid blue; */
-    
+  padding-top: 0;
+  padding-bottom: 5%;
+  padding-right: 10%;
+  /* border: 1px solid blue; */
 }
 
-h2{
-    font-family: "Rowdies", cursive;
-    text-transform: uppercase;
-    color: #4ab8b9;
-    font-size: 2.3rem;
-    margin-bottom: 4rem;
-    
-    margin: 0%;
+.quem-somos-main h2 {
+  font-family: "Rowdies", cursive;
+  text-transform: uppercase;
+  color: #4ab8b9;
+  font-size: 2.3rem;
+  margin-bottom: 4rem;
 
-    padding-bottom: 5%;
-    /* border: 1px black ; */
+  margin: 0%;
+
+  padding-bottom: 5%;
+  /* border: 1px black ; */
 }
 
 #article-img-quem-somos {
-    width: 50%;
-    height: 100%;
-    /* border: 1px solid red; */
-   
+  width: 50%;
+  height: 100%;
+  /* border: 1px solid red; */
 }
 
 #img-quem-somos {
-    max-width:100%;
-    max-height:80%;
-    width: 100%;
-    height: auto;
+  max-width: 100%;
+  max-height: 80%;
+  width: 100%;
+  height: auto;
 }
 
-#h2-texto-missao-historia{
-    font-family: "Rowdies", cursive;
-    text-transform: uppercase;
-    font-size: 2.3rem;
-    margin-bottom: 4rem;
-    color: #FDC204;
-    padding-bottom: 5%;
-    margin: 0%;
+#h2-texto-missao-historia {
+  font-family: "Rowdies", cursive;
+  text-transform: uppercase;
+  font-size: 2.3rem;
+  margin-bottom: 4rem;
+  color: #fdc204;
+  padding-bottom: 5%;
+  margin: 0%;
 }
 
 #texto-quem-somos p {
-    padding-top: 5%;
-    /* border: 1px solid black; */
+  padding-top: 5%;
+  /* border: 1px solid black; */
 }
 
 p {
-    font-family: Ubuntu;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 18px;
-    color: #000000;
-    padding-top: 0%;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #000000;
+  padding-top: 0%;
 }
 
-
 #section-missao-historia {
-    margin: 10% 10% 5% 10%;
-    display: flex;
-    /* border: 1px solid black; */
+  margin: 10% 10% 5% 10%;
+  display: flex;
+  /* border: 1px solid black; */
 }
 
 #texto-historia {
-    width: 50%;
-    
-    flex-direction: column; 
-    justify-content: space-between;
+  width: 50%;
 
-    margin-left: 10%;
+  flex-direction: column;
+  justify-content: space-between;
 
-    padding-bottom: 10%;
-    padding-right: 10%;
-    /* border: 1px solid black; */
+  margin-left: 10%;
+
+  padding-bottom: 10%;
+  padding-right: 10%;
+  /* border: 1px solid black; */
 }
 
 #texto-missao {
-    width: 50%;
-    /* border: 1px solid black; */
+  width: 50%;
+  /* border: 1px solid black; */
 }
 
 #section-equipe {
-    margin: 10% 10% 5% 10%;
-    /* border: 1px solid black; */
+  margin: 10% 10% 5% 10%;
+  /* border: 1px solid black; */
 }
 
 #texto-nossa-equipe {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* border: 1px solid black; */
-    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid black; */
 }
 
 #imagens-membros {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
 }
 
-.figure-membros {  
-    object-fit: none;  /* contain */
+.figure-membros {
+  object-fit: none; /* contain */
 }
 
 #section-odsatuamos {
-    margin: 10% 10% 5% 10%;
-    display: flex;
-    /* border: 1px solid black; */
-   
+  margin: 10% 10% 5% 10%;
+  display: flex;
+  /* border: 1px solid black; */
 }
 
 #texto-odsatuamos {
-     width: 50%;
-    height: 100%;
+  width: 50%;
+  height: 100%;
 
-    flex-direction: row; 
-    /* justify-content: space-between; */
+  flex-direction: row;
+  /* justify-content: space-between; */
 
-    padding-top: 0;
-    padding-bottom: 5%;
-    padding-right: 10%;
-    /* border: 1px solid blue; */
-    
+  padding-top: 0;
+  padding-bottom: 5%;
+  padding-right: 10%;
+  /* border: 1px solid blue; */
 }
 
-
 #rectangle-1 {
-   
-    box-sizing: border-box;
-    width: 20%;
-    
-    margin-top: 10%;
+  box-sizing: border-box;
+  width: 20%;
+
+  margin-top: 10%;
 }
 
 #rectangle-1 img {
-    width: 50%;
-    height: 50%;
+  width: 50%;
+  height: 50%;
 }
 
 #rectangle-2 {
-    width: 20%;
-    margin-top: 10%;
+  width: 20%;
+  margin-top: 10%;
 }
 
 #rectangle-2 img {
-    width: 50%;
-    height: 50%;
+  width: 50%;
+  height: 50%;
 }
 
-
 #rectangle-3 {
-    width: 20%;
-    margin-top: 10%;
+  width: 20%;
+  margin-top: 10%;
 }
 
 #rectangle-3 img {
-    width: 50%;
-    height: 50%;
+  width: 50%;
+  height: 50%;
 }
 
 @media (max-width: 576px) {
-    #section-quem-somos {
-        margin: 10% 10% 5% 10%;
-        display: block;
-        justify-content: center;
-    }
-    
-    #texto-quem-somos {
-        width: 100%;
-        height: 100%;
-    
-        flex-direction: column; 
-        justify-content: space-between;
-    
-        padding-top: 10%;
-        padding-bottom: 10%;
-        padding-right: 10%;
-    
-        
-    }
-    
-    h2{
-        font-size: 250%;
-        font-family: "Ubuntu", sans-serif;
-        font-weight: 700;
-    
-        text-transform: uppercase;
-        color: #4ab8b9;
-        
-        margin: 0%;
-        border: 1px black ;
-    }
-    
-    #img-quem-somos {
-        width: 55%;
-        margin-left: 10%;
-       
-    }
-    
+  #section-quem-somos {
+    margin: 10% 10% 5% 10%;
+    display: block;
+    justify-content: center;
+  }
 
+  #texto-quem-somos {
+    width: 100%;
+    height: 100%;
+
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 10%;
+  }
+
+  h2 {
+    font-size: 250%;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+
+    text-transform: uppercase;
+    color: #4ab8b9;
+
+    margin: 0%;
+    border: 1px black;
+  }
+
+  #img-quem-somos {
+    width: 55%;
+    margin-left: 10%;
+  }
 }
