@@ -35,8 +35,6 @@ OhanaCast
 }
 
 .headline-itens {
-  /* margin: 10% 5%; */
-  margin-top: 15%;
   padding: 0 8.3%;
 }
 
@@ -60,4 +58,23 @@ OhanaCast
   word-spacing: 0.2rem;
   line-height: 1.4rem;
   text-align: justify;
+}
+
+@media (max-width: 992px) {
+  .headline-itens p {
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .headline-itens p {
+    margin-top: 3.5rem;
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 576px) {
+  .headline-itens p {
+    max-width: 100%;
+  }
 }
