@@ -1,11 +1,21 @@
 .castContent{
     display: flex;
     justify-content: center;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 19%, rgba(48,161,165,1) 79%, rgba(78,184,185,1) 100%);
+    flex-direction: column;
 }
 
-.spotify{
+#podcastCall{
+    position: relative;
+    color: white;
+}
+
+
+#spotify{
     position: relative;
     top: 20px;
-    width: 85vw; 
+    width: 80%; 
     height: 50vw;
+    margin: auto;
 }
