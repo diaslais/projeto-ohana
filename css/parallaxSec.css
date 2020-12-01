@@ -23,7 +23,8 @@ background: #30A1A5;
 
 #ohanaCast{
     display: inline-block;
-    font-family: Roboto;
+    font-family: "Ubuntu", sans-serif;
+    /*font-family: Roboto;*/
     font-style: normal;
     font-weight: bold;
     font-size: 10vw;
