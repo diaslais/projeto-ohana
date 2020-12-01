@@ -1,0 +1,120 @@
+.doar-main {
+  margin: 0 5% 10% 5%;
+}
+
+.for-us-container {
+  margin-top: 2.5%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.for-us {
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 12px -3px rgba(201, 201, 201, 1);
+}
+
+.for-us-content {
+  padding: 5%;
+}
+
+.for-others-content {
+  padding: 0 5% 5% 5%;
+}
+
+.desc-us {
+  display: flex;
+}
+
+.desc-us-text p {
+  padding-top: 2.5%;
+}
+
+.div {
+  border-bottom: 0.15rem solid #fcc63e;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.doar-main p {
+  text-align: justify;
+  margin-top: 2.5%;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.5%;
+  width: 100%;
+}
+
+.buttons button {
+  padding: 0.6rem 2.3rem;
+  outline: none;
+  border: #4ab8b9 2px solid;
+  border-radius: 0.3rem;
+  transition: 0.5s;
+  font-family: "Ubuntu", sans-serif;
+  color: #4ab8b9;
+  background-color: #fff;
+  font-weight: 700;
+}
+
+.buttons button:hover {
+  background-color: #4ab8b9;
+  color: #fff;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.for-others .ONG {
+  margin-top: 5%;
+}
+
+.for-others h3 {
+  color: #fcc63e;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.for-others p {
+  width: 100%;
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+
+.for-others .desc-text a {
+  font-family: "Ubuntu", sans-serif;
+  color: #4ab8b9;
+  font-weight: 700;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.desc-ong {
+  margin: 5% 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.desc-text {
+  width: 50%;
+}
+
+.desc-img {
+  display: flex;
+  width: 45%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.doar-main img {
+  object-fit: contain;
+  width: 45%;
+  max-height: 10rem;
+  vertical-align: middle;
+}
