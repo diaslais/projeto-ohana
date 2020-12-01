@@ -73,6 +73,10 @@
   margin-top: 5%;
 }
 
+.for-others h2 {
+  padding-bottom: 0;
+}
+
 .for-others h3 {
   color: #fcc63e;
   font-family: "Ubuntu", sans-serif;
