@@ -3,7 +3,6 @@
     width: 100%;
     height: 45vw;
     left: 0px; 
-    
 } 
 
 /* 
@@ -71,15 +70,21 @@ background: #30A1A5;
     width: 20vw;
     border-radius: 30px;
     border: none;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 1.2vw;
+    display: flex;
+    justify-content: row;
+}
+
+.fa-spotify, .fa-deezer{
+  font-size: 1.5rem;
+  margin: 0 2.5%;
 }
 
 #spotyButton{
-    background-color: #5cba54; 
+    background-color: #5cba54;
 }
 #deezerButton{
     background-color: white;
@@ -177,6 +182,11 @@ background: #30A1A5;
         font-size: 15px;
     }
     
+    .fa-spotify, .fa-deezer{
+        font-size: 1.5rem;
+        margin: 0 2.5%;
+    }
+
     #spotyButton{
         background-color: #5cba54; 
     }

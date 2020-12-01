@@ -34,11 +34,8 @@
 #spotify{
     position: relative;
     top: 50px;
-    
     width: 80%; 
     height: 50vw;
-   
-    
     margin: auto;
     
 }
@@ -46,4 +43,26 @@
 #podcastDraw{
     position: relative;
     top: 50px;
+    height: 40vw;
+    width: auto;
+    margin: auto;
+}
+
+@media (max-width: 992px) {
+    .castContent{
+        height: 300vw;
+        display: flex;
+        justify-content: center;
+        background: rgb(0,0,0);
+        background: linear-gradient(180deg, rgba(0,0,0,1) 19%, rgba(48,161,165,1) 79%, rgba(78,184,185,1) 100%);
+        flex-direction: column;
+    }
+
+    #podcastDraw{
+        position: relative;
+        top: 50px;
+        height: 20%;
+        width: auto;
+        margin: auto;
+    }
 }
