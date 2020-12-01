@@ -2,6 +2,13 @@
   margin: 0 5% 10% 5%;
 }
 
+.doar-main h2 {
+  font-family: "Rowdies", cursive;
+  text-transform: uppercase;
+  color: #4ab8b9;
+  font-size: 2.3rem;
+}
+
 .for-us-container {
   margin-top: 2.5%;
   height: 100vh;
