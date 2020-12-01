@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protótipo Ohana</title>
+
+    <script src="https://kit.fontawesome.com/68fc4c4b56.js"></script>    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/loads.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+    <link rel="stylesheet" href="css/parallaxSec.css">
+    <link rel="stylesheet" href="css/spotify.css">
+    <link rel="stylesheet" href="css/join.css">
+    <link rel="stylesheet" href="css/header.css">
+    
+</head>
+<body style="background-color: black;">
+    
+    <div id="header"></div>
+   
+
+    <div class="imgSection">
+        <div id="imgText">
+            <h1 id="ohanaCast">OhanaCast</h1>
+            <p id="description">Atuamos em ONGs e OSCIPs capacitando-as a fim de que elas consigam aumentar seu impacto na sociedade e gerenciem as áreas da instituição.</p>
+            
+            <div id="imgButton" action="https://google.com">
+                <form action="https://open.spotify.com/show/2E4mZCOWbrwMGi0Q6dTgBl?si=Wb6ADmYhThSix3gu6_hK8A" target="_blank">
+                    <input id="spotyButton" type="submit" value="Spotify" />
+                </form>
+                <form action="https://deezer.page.link/Gr5CWcEpnBoXxei58" target="_blank">
+                    <input id="deezerButton" type="submit" value="Deezer" />
+                </form>
+                
+            </div>
+        </div>
+        
+        <div class="parallax" data-parallax="scroll" data-z-index="1" data-position="-250px" data-image-src="assets/studio.jpg"></div>
+    </div>
+    
+
+    <div class="castContent" style="height: 500px; background-color: white;">
+        <h2 id="podcastCall">Ouça nosso último podcast</h2>
+        <iframe id="spotify" src="https://open.spotify.com/embed-podcast/show/2E4mZCOWbrwMGi0Q6dTgBl" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+
+   <div id="footer"></div>
+
+    <script type="text/javascript">
+
+        var prevY = window.pageYOffset;
+        window.onscroll = function () {
+            var currentY = window.pageYOffset;
+            var headerStyle = document.querySelector("header").style; 
+            if (currentY < prevY) {
+                headerStyle.top = "0";
+            }
+            else {
+                headerStyle.top = "-100px";
+            }
+            console.log(headerStyle.height);
+            prevY = currentY;
+        }
+    </script>
+    <script>
+        var parallax = document.getElementsByClassName("parallax");
+        
+    </script>
+</body>
+</html>

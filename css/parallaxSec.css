@@ -1,15 +1,14 @@
 .imgSection{
     position: relative;
     width: 100%;
-    height: 60vw;
+    height: 45vw;
     left: 0px; 
     
 } 
 
-/*
+/* 
 background: #30A1A5;
     mix-blend-mode: darken;
-
     z-index: 4;
 */
 
@@ -23,12 +22,13 @@ background: #30A1A5;
 }
 
 #ohanaCast{
-   
+    display: inline-block;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 10vw;
-
+    line-height: 2vw;
+    
     color: white;
     
     
@@ -49,14 +49,10 @@ background: #30A1A5;
 
 #imgText{
     position: absolute;
-    justify-content: left;
     left: 5%;
     top: 40%;
-
     max-width: 50vw;
-    flex-direction: row;
     justify-content: center;
-
     z-index: 3;
 }
 
@@ -100,4 +96,105 @@ background: #30A1A5;
     -webkit-transition: all .1s ease;
 
     transform: scale(1.05);
+}
+
+
+@media (max-width: 992px) {
+    .imgSection{
+        position: relative;
+        width: 100%;
+        height: 400px;
+        left: 0px;
+        
+        display: flex;
+        justify-content: center;
+    } 
+
+    .parallax{
+        position: relative;
+        
+        min-height: 100%;
+        min-width: 100%;
+        max-height: 600px;
+        
+    }
+    
+    #ohanaCast{
+        display: inline;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 2vw;
+        top: -20px;
+        
+        color: white;
+        
+        
+    }
+    
+    #description{
+        width: 300px;
+        display: block;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 10px;
+        color:white;
+        
+    }
+    
+    
+    #imgText{
+        position: absolute;
+        
+        top: 30%;
+        max-width: 50vw;
+        z-index: 3;
+    }
+    
+    #imgButton{
+        position: relative;
+        top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    
+    
+    #spotyButton, #deezerButton{
+        height: 45px;
+        width: 200px;
+        border-radius: 30px;
+        border: none;
+        margin: 8px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    #spotyButton{
+        background-color: #5cba54; 
+    }
+    #deezerButton{
+        background-color: white;
+    }
+    
+    #spotyButton:hover{
+        transition: all .1s ease;
+        -webkit-transition: all .1s ease;
+    
+        transform: scale(1.05);
+    }
+    
+    #deezerButton:hover{
+        transition: all .1s ease;
+        -webkit-transition: all .1s ease;
+    
+        transform: scale(1.05);
+    }
+    
 }
