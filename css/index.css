@@ -343,6 +343,7 @@
 @media (max-width: 576px) {
   .index-container-oferecemos {
     flex-direction: column;
+   
   }
 
   .index-container-oferecemos h2,
