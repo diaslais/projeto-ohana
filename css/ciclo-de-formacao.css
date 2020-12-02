@@ -105,20 +105,24 @@
 
 @media (max-width: 576px) {
   .participantes-container h2 {
-    font-size: 7.5vw !important;
+    font-size: 8vw !important;
     padding-bottom: 3rem;
   }
 
+  .list-logo {
+    border-bottom: 0.5vw solid #fdc204;
+  }
+
   .list-logo h3 {
-    font-size: 7vw;
+    font-size: 9vw;
   }
 
   .list-logo img {
-    width: 6vw;
+    width: 8vw;
   }
 
   .list-block p {
-    font-size: 4vw !important;
+    font-size: 5vw !important;
     padding-bottom: 2rem !important;
   }
 }
