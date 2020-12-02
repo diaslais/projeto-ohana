@@ -16,35 +16,46 @@
 
 .lista-img-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.participantes-container {
+  width: 100%;
 }
 
 .participantes-container h2 {
-  padding-bottom: 5%;
+  padding-bottom: 7%;
+  text-align: center;
 }
 
 .participantes-lista {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 50%;
 }
 
 .list-block {
-  /* padding-bottom: 3%; */
-  padding-bottom: 3%;
+  padding-bottom: 7%;
+}
+
+.list-block:last-child {
+  padding-bottom: 0;
 }
 
 .list-block p {
-  padding-left: 2.5% !important;
+  text-align: center;
 }
 
 .list-logo {
   display: flex;
   align-items: center;
-  padding-left: 2.5%;
+  justify-content: center;
   padding-bottom: 1%;
-  border-bottom: 0.3vw solid #fcc63e;
+  border-bottom: 0.2vw solid #fcc63e;
+}
+
+.list-logo a:hover {
+  opacity: 60%;
 }
 
 .list-logo img {
@@ -52,7 +63,7 @@
 }
 
 .list-logo h3 {
-  font-size: 2.5vw;
+  font-size: 2.7vw;
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -62,7 +73,7 @@
 
 .formacao-imagens {
   display: flex;
-  width: 45%;
+
   align-content: center;
 }
 
@@ -70,4 +81,44 @@
   object-fit: contain;
   border-radius: 0.5vw;
   width: 100%;
+}
+
+@media (max-width: 992px) {
+  .participantes-container h2 {
+    padding-bottom: 4rem;
+  }
+
+  .list-logo h3 {
+    font-size: 3.5vw;
+  }
+
+  .list-block p {
+    font-size: 2.5vw !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .list-logo h3 {
+    font-size: 4.5vw;
+  }
+}
+
+@media (max-width: 576px) {
+  .participantes-container h2 {
+    font-size: 7.5vw !important;
+    padding-bottom: 3rem;
+  }
+
+  .list-logo h3 {
+    font-size: 7vw;
+  }
+
+  .list-logo img {
+    width: 6vw;
+  }
+
+  .list-block p {
+    font-size: 4vw !important;
+    padding-bottom: 2rem !important;
+  }
 }
