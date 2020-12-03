@@ -229,10 +229,30 @@
   margin-bottom: 3rem;
 }
 
-.index-doar .buttons {
+.index-doar .button {
   display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
 }
 
+.index-doar .button button {
+  border: #4ab8b9 3px solid;
+  border-radius: 5px;
+  padding: 1rem 3rem;
+  background-color: #fff;
+  color: #4ab8b9;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.5s;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+}
+
+.index-doar .button button:hover {
+  background-color: #4ab8b9;
+  color: #fff;
+  transition: 0.5s;
+}
 
 @media (max-width: 992px) {
   .index-headline-content {
@@ -324,15 +344,6 @@
     width: auto;
     flex-direction: row;
   }
-
-  .index-doar .buttons {
-    justify-content: space-evenly;
-  }
-
-  .index-doar .buttons button {
-    padding: .5rem 1.5rem;
-    width: 6rem;
-  }
 }
 
 @media (max-width: 768px) {
@@ -372,16 +383,6 @@
 
   .index-doar .desc-us h2 {
     font-size: 1.7rem;
-  }
-
-  .index-doar .buttons {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .index-doar .buttons button{
-    margin-bottom: .5rem;
-    width: 12rem;
   }
 }
 
@@ -458,8 +459,7 @@
     margin-bottom: 1rem;
   }
 
-  .index-doar .buttons button{
-    padding: .5rem 1.5rem;
-    width: 9.5rem;
-  }  
+  .index-doar .button button {
+    padding: 0.7rem 1.5rem;
+  }
 }
