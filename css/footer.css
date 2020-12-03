@@ -44,16 +44,9 @@ footer p {
   opacity: 60%;
 }
 
-/* para php */
-.center-column .svg-inline--fa {
-  font-size: 2.5rem;
-  margin: 0 2.5%;
-}
-
-/* para html */
-.fa-spotify,
-.fa-deezer,
-.fa-instagram {
+.center-column .fa-spotify,
+.center-column .fa-deezer,
+.center-column .fa-instagram {
   font-size: 2.5rem;
   margin: 0 2.5%;
 }
