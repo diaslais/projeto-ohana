@@ -7,15 +7,17 @@
 }
 
 #podcastCall{
-    
+    display: inline-block;
     position: relative;
     top: 30px;
     left: 10px;
+    width: 100%;
     color: white;
     font-family: "Ubuntu", sans-serif;
     font-size: 50px;
     font-style: bold;
     font-weight: 700;
+    
 }
 
 #cardSpotify{
@@ -56,6 +58,19 @@
         background: rgb(0,0,0);
         background: linear-gradient(180deg, rgba(0,0,0,1) 19%, rgba(48,161,165,1) 79%, rgba(78,184,185,1) 100%);
         flex-direction: column;
+    }
+
+    #podcastCall{
+        display: inline-block;
+        position: relative;
+        top: 30px;
+        left: 10px;
+        width: 100%;
+        color: white;
+        font-family: "Ubuntu", sans-serif;
+        font-size: 45px;
+        font-style: bold;
+        font-weight: 700;
     }
 
     #podcastDraw{

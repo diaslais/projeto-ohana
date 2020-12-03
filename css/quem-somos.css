@@ -170,6 +170,7 @@ p {
     margin: 10% 10% 5% 10%;
     display: block;
     justify-content: center;
+    
   }
 
   #texto-quem-somos {
@@ -184,20 +185,105 @@ p {
     padding-right: 10%;
   }
 
-  h2 {
-    font-size: 250%;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 700;
-
+  .quem-somos-main h2 {
+    font-family: "Rowdies", cursive;
     text-transform: uppercase;
     color: #4ab8b9;
-
+    font-size: 2.3rem;
+    margin-bottom: 4rem;
+  
     margin: 0%;
-    border: 1px black;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    /* border: 1px black ; */
+  }
+  
+  #article-img-quem-somos {
+    width: 100%;
+    height: 100%;
+     
+  }
+  
+  #img-quem-somos {
+    max-width: 100%;
+    max-height: 80%;
+    width: 100%;
+    height: auto;
   }
 
-  #img-quem-somos {
-    width: 55%;
-    margin-left: 10%;
+  #section-missao-historia {
+   
+    display: flex;
+    flex-direction: column;
+
   }
+  
+  #texto-historia {
+    width: 100%;
+    height: 100%;
+    padding-top: 0;
+    padding-bottom: 5%;
+  
+  }
+  
+  #texto-missao {
+    width: 100%;
+    height: 100%;
+
+    padding-bottom: 5%;
+    
+    
+  }
+
+  #section-odsatuamos {
+    margin: 10% 10% 5% 10%;
+    display: flex;
+  
+    flex-direction: column-reverse;
+  }
+  
+  #texto-odsatuamos {
+    width: 100%;
+    height: 100%;
+  
+    flex-direction: row;
+    /* justify-content: space-between; */
+  
+    padding-top: 0;
+    padding-bottom: 5%;
+    padding-right: 10%;
+    /* border: 1px solid blue; */
+  }
+
+  #rectangle-1 {
+    box-sizing: border-box;
+    width: 20%;
+  
+    margin-top: 10%;
+  }
+  
+  #rectangle-1 img {
+    width: 50%;
+    height: 50%;
+  }
+  
+  #rectangle-2 {
+    width: 20%;
+    margin-top: 10%;
+  }
+  
+  #rectangle-2 img {
+    width: 50%;
+    height: 50%;
+  }
+  
+  #rectangle-3 {
+    width: 20%;
+    margin-top: 10%;
+  }
+  
+  #rectangle-3 img {
+    width: 50%;
+    height: 50%;
+}
 }
