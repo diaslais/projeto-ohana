@@ -57,6 +57,8 @@
     font-weight: 700;
     cursor: pointer;
     transition: 0.5s;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1rem;
 }
 
 .submit-btn:hover {
