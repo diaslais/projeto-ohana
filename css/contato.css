@@ -1,6 +1,10 @@
 .contact-main {
     padding: 10rem 8.3% 6%;
     font-family: "Ubuntu", sans-serif;
+    background-image: url("../assets/background-img.png");
+    background-size: auto 700px;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .contact-content {
@@ -94,6 +98,8 @@
 
 .map-wrapper {
     margin-top: 2rem;
+    border: 3px solid #e0e0e0;
+    border-radius: 0.3rem;
 }
 
 .contact-googlemap {
