@@ -7,11 +7,9 @@
 }
 
 #podcastCall{
-    display: inline-block;
-    position: relative;
+    display: inline;
     top: 30px;
-    left: 10px;
-    width: 100%;
+    height: 5vw;
     color: white;
     font-family: "Ubuntu", sans-serif;
     font-size: 50px;
@@ -20,18 +18,8 @@
     
 }
 
-#cardSpotify{
-    position: relative;
-    top: 50px;
-    height: 35%;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    width: 80%;
-    background-color: white;
-    border-radius: 30px;
 
-}
+
 
 #spotify{
     position: relative;
@@ -63,14 +51,21 @@
     #podcastCall{
         display: inline-block;
         position: relative;
-        top: 30px;
-        left: 10px;
-        width: 100%;
+        width: 80%;
         color: white;
         font-family: "Ubuntu", sans-serif;
         font-size: 45px;
         font-style: bold;
         font-weight: 700;
+    }
+
+    #spotify{
+        position: relative;
+        top: 30vw;
+        width: 90vw; 
+        height: 100vw;
+        margin: auto;
+        
     }
 
     #podcastDraw{
