@@ -4,7 +4,7 @@
     background-size: cover;
     position: relative;
     width: 100%;
-    height: 45vw;
+    height: 100vh;
     left: 0px;
     background-color: #4a9185;
     background-blend-mode: multiply; 
@@ -14,37 +14,31 @@
 #ohanaCast{
     display: inline-block;
     font-family: "Ubuntu", sans-serif;
-    /*font-family: Roboto;*/
     font-style: normal;
     font-weight: bold;
     font-size: 10vw;
-    
-    
     color: white;
-    
-    
 }
 
-#description{
-    
+#card{
     display: inline-block;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1.2vw;
-    
-    color:white;
-    
-}
+    position: relative;
+    top: 0px;
+    left: 10px;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.5vw;
+    font-style: bold;
+    font-weight: 400;
 
+}
 
 #imgText{
     position: absolute;
     left: 5%;
     top: 40%;
     max-width: 50vw;
-    justify-content: center;
-    
+    justify-content: center column;
 }
 
 #imgButton{
@@ -53,8 +47,6 @@
     display: flex;
     justify-content: space-around;
 }
-
-
 
 #spotyButton, #deezerButton{
     height: 4vw;
@@ -98,108 +90,36 @@
 
 @media (max-width: 992px) {
     .imgSection{
-        background: url(../assets/studio.jpg) no-repeat top;
-        background-attachment: fixed;
-        background-size: 200%;
-        position: relative;
-        width: 100%;
-        height: 400px;
-        left: 0px;
-        background-color: #4a9185;
-        background-blend-mode: multiply;
         display: flex;
         justify-content: center;
     } 
 
-    .parallax{
-        position: relative;
-        
-        min-height: 100%;
-        min-width: 100%;
-        max-height: 600px;
-        
-    }
-    
     #ohanaCast{
-        display: inline;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: bold;
         font-size: 60px;
         top: -20px;
-        
-        color: white;
-        
-        
     }
     
-    #description{
-        width: 300px;
-        display: block;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 12px;
-        
-        color:white;
-        
+    #card{
+        font-size: 4vw;
+        font-style: bold;
+        font-weight: 400;
     }
-    
-    
+
     #imgText{
-        position: absolute;
-        
         top: 30%;
-        max-width: 50vw;
-        z-index: 3;
     }
-    
+   
     #imgButton{
-        position: relative;
         top: 20px;
-        display: flex;
         flex-direction: column;
         align-items: stretch;
     }
     
-    
-    
     #spotyButton, #deezerButton{
         height: 45px;
-        width: 200px;
-        border-radius: 30px;
-        border: none;
+        width: 250px;
         margin: 8px;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: bold;
         font-size: 15px;
-    }
-    
-    .fa-spotify, .fa-deezer{
-        font-size: 1.5rem;
-        margin: 0 2.5%;
-    }
-
-    #spotyButton{
-        background-color: #5cba54; 
-    }
-    #deezerButton{
-        background-color: white;
-    }
-    
-    #spotyButton:hover{
-        transition: all .1s ease;
-        -webkit-transition: all .1s ease;
-    
-        transform: scale(1.05);
-    }
-    
-    #deezerButton:hover{
-        transition: all .1s ease;
-        -webkit-transition: all .1s ease;
-    
-        transform: scale(1.05);
     }
     
 }
