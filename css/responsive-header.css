@@ -105,12 +105,14 @@ body {
   color: #4ab8b9;
   display: none;
   text-align: center;
+  box-shadow: 4px 4px 18px -10px rgba(0,0,0,0.49);
 }
 
 .nav-dropdown-item,
 .nav-dropdown-item-last {
   display: block;
   padding: 1.3rem 0.3rem;
+  transition: 0.3s;
 }
 
 .nav-dropdown-item {
@@ -176,6 +178,10 @@ body {
   .nav-menu .nav-menu-item {
     padding: 0.3rem 1rem;
     display: block;
+  }
+
+  .nav-menu .nav-dropdown {
+    box-shadow: none;
   }
 
   .nav-menu-donate {

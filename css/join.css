@@ -43,3 +43,7 @@
 
 /* Estilos pertinentes ao Parallax */
 @import url("parallaxSec.css");
+
+/* Estilos pertinentes a página Contato */
+@import url("contato.css")
+

@@ -217,6 +217,43 @@
   max-width: 100%;
 }
 
+.index-doar {
+  padding: 6% 5%;
+}
+
+.index-doar h2 {
+  font-family: "Rowdies", cursive;
+  text-transform: uppercase;
+  color: #4ab8b9;
+  font-size: 2.3rem;
+  margin-bottom: 3rem;
+}
+
+.index-doar .button {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.index-doar .button button {
+  border: #4ab8b9 3px solid;
+  border-radius: 5px;
+  padding: 1rem 3rem;
+  background-color: #fff;
+  color: #4ab8b9;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.5s;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+}
+
+.index-doar .button button:hover {
+  background-color: #4ab8b9;
+  color: #fff;
+  transition: 0.5s;
+}
+
 @media (max-width: 992px) {
   .index-headline-content {
     height: auto;
@@ -242,7 +279,6 @@
   .index-container-oferecemos h2,
   .index-container-impactos h2,
   .index-container-parcerias h2 {
-    font-size: 1.7rem;
     margin-bottom: 1.5rem;
   }
 
@@ -308,7 +344,6 @@
     width: auto;
     flex-direction: row;
   }
-
 }
 
 @media (max-width: 768px) {
@@ -338,18 +373,22 @@
     font-size: .9rem;
     margin: 2rem 0 3.5rem;
   }
-}
-
-@media (max-width: 576px) {
-  .index-container-oferecemos {
-    flex-direction: column;
-  }
 
   .index-container-oferecemos h2,
   .index-container-impactos h2,
   .index-container-parcerias h2 {
     font-size: 1.7rem;
-    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .index-doar .desc-us h2 {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .index-container-oferecemos {
+    flex-direction: column;
   }
 
   .index-frentes-imgs .frente {
@@ -398,5 +437,29 @@
 
   .index-parceiros {
     margin: .5rem 0;
+  }
+
+  .index-doar .desc-us {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .index-doar .desc-us h2 {
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .index-doar .desc-us p {
+    margin-bottom: 1rem;
+  }
+
+  .index-doar .desc-us-image {
+    margin-bottom: 1rem;
+  }
+
+  .index-doar .button button {
+    padding: 0.7rem 1.5rem;
   }
 }

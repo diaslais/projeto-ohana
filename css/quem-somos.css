@@ -1,7 +1,14 @@
+.quem-somos-main {
+  padding: 10rem 8.3% 6%;
+}
+
+.quem-somos-main section {
+  margin: 6% 0;
+}
+
 #section-quem-somos {
-  margin: 10% 10% 5% 10%;
   display: flex;
-  /* border: 1px solid black; */
+ 
 }
 
 #texto-quem-somos {
@@ -25,7 +32,6 @@
   margin-bottom: 4rem;
 
   margin: 0%;
-
   padding-bottom: 5%;
   /* border: 1px black ; */
 }
@@ -34,6 +40,7 @@
   width: 50%;
   height: 100%;
   /* border: 1px solid red; */
+
 }
 
 #img-quem-somos {
@@ -48,14 +55,10 @@
   text-transform: uppercase;
   font-size: 2.3rem;
   margin-bottom: 4rem;
-  color: #fdc204;
+  color:  #fcc63e;;
   padding-bottom: 5%;
-  margin: 0%;
-}
 
-#texto-quem-somos p {
-  padding-top: 5%;
-  /* border: 1px solid black; */
+  margin: 0%;
 }
 
 p {
@@ -69,33 +72,35 @@ p {
 }
 
 #section-missao-historia {
-  margin: 10% 10% 5% 10%;
+
   display: flex;
-  /* border: 1px solid black; */
+  
 }
 
 #texto-historia {
   width: 50%;
-
   flex-direction: column;
-  justify-content: space-between;
+  padding: 0 0 0 8.3%;
+  
+}
 
-  margin-left: 10%;
+#img-historia {
+  
+  width: 50%;
+}
 
-  padding-bottom: 10%;
-  padding-right: 10%;
-  /* border: 1px solid black; */
+#img-historia img {
+  width: 100%;
+  
 }
 
 #texto-missao {
   width: 50%;
+ 
   /* border: 1px solid black; */
 }
 
-#section-equipe {
-  margin: 10% 10% 5% 10%;
-  /* border: 1px solid black; */
-}
+
 
 #texto-nossa-equipe {
   display: flex;
@@ -115,9 +120,9 @@ p {
 }
 
 #section-odsatuamos {
-  margin: 10% 10% 5% 10%;
+
   display: flex;
-  /* border: 1px solid black; */
+  
 }
 
 #texto-odsatuamos {
@@ -127,77 +132,155 @@ p {
   flex-direction: row;
   /* justify-content: space-between; */
 
-  padding-top: 0;
-  padding-bottom: 5%;
-  padding-right: 10%;
+  padding: 0 8.3% 5% 0;
+
   /* border: 1px solid blue; */
 }
 
-#rectangle-1 {
-  box-sizing: border-box;
-  width: 20%;
+.container-img-ods {
+  display: flex;
+  justify-content: space-around;
 
-  margin-top: 10%;
+
 }
 
-#rectangle-1 img {
-  width: 50%;
-  height: 50%;
+.img-ods {
+  margin-left: 10%;
+
 }
 
-#rectangle-2 {
-  width: 20%;
-  margin-top: 10%;
+.img-ods img {
+  max-width: 12.5rem;
+  
 }
 
-#rectangle-2 img {
-  width: 50%;
-  height: 50%;
-}
+/* @media (max-width: 992px) {
+ 
+} */
 
-#rectangle-3 {
-  width: 20%;
-  margin-top: 10%;
-}
-
-#rectangle-3 img {
-  width: 50%;
-  height: 50%;
-}
-
-@media (max-width: 576px) {
+@media (max-width: 992px) {
   #section-quem-somos {
-    margin: 10% 10% 5% 10%;
     display: block;
     justify-content: center;
   }
 
   #texto-quem-somos {
     width: 100%;
+    padding: 0 0 5% 0;
+
+  }
+
+  .quem-somos-main h2 {
+    padding-top: 0;
+   
+    /* border: 1px black ; */
+  }
+  
+  #article-img-quem-somos {
+    width: 100%;     
+  }
+
+  #section-missao-historia {
+    display: flex;
+    flex-direction: column-reverse;
+    
+  }
+  
+  #texto-historia {
+    width: 100%;
     height: 100%;
+    margin-left: 0;
+    padding: 0 0 0 0%;
+  }
+  
+  #img-historia {
+    width: 100%;
+  }
+  #texto-missao {
+    width: 100%;
+    padding-bottom: 5%;
+  }
 
+  #section-odsatuamos {  
     flex-direction: column;
-    justify-content: space-between;
+  }
 
-    padding-top: 10%;
+  .container-img-ods {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .img-ods {
+    margin: 5% 0;
+  }
+ 
+  #texto-odsatuamos {
+    width: 100%;  
+  
+    padding: 0 8.3% 0 0;
+  
+
+  }
+}
+
+@media (max-width: 576px) {
+  #section-quem-somos {
+    display: block;
+    justify-content: center;
+  }
+
+  #texto-quem-somos {
+    width: 100%;
     padding-bottom: 10%;
-    padding-right: 10%;
   }
 
-  h2 {
-    font-size: 250%;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 700;
-
-    text-transform: uppercase;
-    color: #4ab8b9;
-
-    margin: 0%;
-    border: 1px black;
+  .quem-somos-main h2 {
+    padding-top: 10%;
+    /* border: 1px black ; */
+  }
+  
+  #article-img-quem-somos {
+    width: 100%;     
   }
 
-  #img-quem-somos {
-    width: 55%;
-    margin-left: 10%;
+  #section-missao-historia {
+    display: flex;
+    flex-direction: column-reverse;
+    
   }
+  
+  #texto-historia {
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+    padding: 0 0 5% 0%;
+  }
+  
+  #img-historia {
+    width: 100%;
+  }
+  #texto-missao {
+    width: 100%;
+    padding-bottom: 5%;
+  }
+
+  #section-odsatuamos {  
+    flex-direction: column;
+  }
+
+  .container-img-ods {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-ods {
+    margin: 5% 0;
+  }
+ 
+  #texto-odsatuamos {
+    width: 100%;  
+    padding-bottom: 5%;
+    padding-right: 0;
+  }
+
 }
