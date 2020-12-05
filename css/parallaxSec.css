@@ -57,9 +57,9 @@
     font-style: normal;
     font-weight: bold;
     font-size: 1.2vw;
-    display: flex;
-    justify-content: row;
+    
 }
+
 
 .fa-spotify, .fa-deezer{
   font-size: 1.5rem;
