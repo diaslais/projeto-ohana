@@ -1,6 +1,8 @@
 window.onload = function() {
 
     let testForm = document.querySelector("form");
+    let inputs = document.querySelectorAll("input");
+    let textArea = document.querySelector("textarea");
 
     testForm.addEventListener('submit', e => {
         e.preventDefault();
@@ -15,13 +17,16 @@ window.onload = function() {
             body: new URLSearchParams(formData).toString()
         })
         .then(res => {
-            if(res) {
+            if(res) {                
+                inputs.forEach(input => input.value = '');
+                textArea.value = '';
+                
                 Swal.fire(
                     "Mensagem enviada!", 
                     "Agradecemos o contato", 
                     "success"
-                );
-            }
+                );                
+            }            
         });
     });
 };
