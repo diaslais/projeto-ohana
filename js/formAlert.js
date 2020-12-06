@@ -14,7 +14,7 @@ testForm.addEventListener('submit', e => {
     })
     .then(res => {
         if(res) {
-            alert("Obrigado por enviar sua mensagem!");
+            console.log("enviado");
         }
     });
 });
