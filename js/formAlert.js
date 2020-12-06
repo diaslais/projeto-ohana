@@ -8,7 +8,7 @@ testForm.addEventListener('submit', e => {
         method: 'POST',
         headers: {
             'Accept': 'application/x-www-form-urlencoded;charset=UTF-8',
-            'Content Type': 'application/x-www-form-urlencoded;charset=UTF-8'
+            'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
         },
         body: new URLSearchParams(formData).toString()
     })
