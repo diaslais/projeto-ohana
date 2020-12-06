@@ -1,20 +1,29 @@
-let testForm = document.querySelector("form");
+window.onload = function() {
 
-testForm.addEventListener('submit', e => {
-    e.preventDefault();
+    let testForm = document.querySelector("form");
 
-    const formData = new FormData(testForm);
-    fetch(testForm.getAttribute('action'), {
-        method: 'POST',
-        headers: {
-            'Accept': 'application/x-www-form-urlencoded;charset=UTF-8',
-            'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
-        },
-        body: new URLSearchParams(formData).toString()
-    })
-    .then(res => {
-        if(res) {
-            console.log("enviado");
-        }
+    testForm.addEventListener('submit', e => {
+        e.preventDefault();
+
+        const formData = new FormData(testForm);
+        fetch(testForm.getAttribute('action'), {
+            method: 'POST',
+            headers: {
+                'Accept': 'application/x-www-form-urlencoded;charset=UTF-8',
+                'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
+            },
+            body: new URLSearchParams(formData).toString()
+        })
+        .then(res => {
+            if(res) {
+                Swal.fire(
+                    "Mensagem enviada!", 
+                    "Agradecemos o contato", 
+                    "success"
+                );
+            }
+        });
     });
-});
+};
+
+
