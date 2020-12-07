@@ -2,7 +2,7 @@
   padding: 10rem 8.3% 6%;
 }
 
-#section-quem-somos {
+.section-quem-somos {
   display: flex;
   align-items: center;
   padding: 0 0 6% 0;
@@ -136,7 +136,7 @@ p {
 
 
 @media (max-width: 992px) {
-  #section-quem-somos {
+  .section-quem-somos {
     display: block;
     justify-content: center;
   }
@@ -201,7 +201,7 @@ p {
 }
 
 @media (max-width: 576px) {
-  #section-quem-somos {
+  .section-quem-somos {
     display: block;
     justify-content: center;
   }
