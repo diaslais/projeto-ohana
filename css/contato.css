@@ -29,6 +29,10 @@
     margin-bottom: 1.5rem;
   }
 
+  .hidden {
+      display: none;
+  }
+
  .field {
      display: block;
 	width: 100%;
