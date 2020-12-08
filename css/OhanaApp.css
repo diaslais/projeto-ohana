@@ -34,7 +34,7 @@ header {
 .apps {
   display: flex;
   align-items: center;
-}
+} 
 
 .google-play img {
   max-width: 10rem;
@@ -51,6 +51,10 @@ header {
 }
 
 @media (max-width: 768px) {
+  .app-headline {
+    height: auto;
+  }
+
   .apps {
     margin-top: 5rem;
   }

@@ -6,7 +6,7 @@ OhanaCast
 
 .page-content {
   margin: 10%;
-}
+} 
 
 .page-content h1 {
   color: #fcc63e;
@@ -65,8 +65,14 @@ OhanaCast
 }
 
 @media (max-width: 768px) {
+  .headline-itens {
+    margin-bottom: 2rem;
+  }
+  
   .headline-itens h1 {
     font-size: 2rem;
+    line-height: 3rem;
+    margin-top: 7rem;
   }
 
   .headline-itens p {
@@ -78,7 +84,6 @@ OhanaCast
 
 @media (max-width: 576px) {
   .headline-itens {
-    margin-top: 15%;
     display: flex;
     flex-direction: column;
   }

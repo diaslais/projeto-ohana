@@ -98,6 +98,10 @@
 }
 
 @media (max-width: 768px) {
+  .formacao-headline {
+    height: auto;
+  }
+
   .list-logo h3 {
     font-size: 4.5vw;
   }
