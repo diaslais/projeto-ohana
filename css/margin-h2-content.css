@@ -45,7 +45,6 @@ OhanaCast
   font-family: "Rowdies", cursive;
   text-transform: uppercase;
   text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2);
-
   margin-bottom: 4%;
 }
 
@@ -54,11 +53,9 @@ OhanaCast
   max-width: 50%;
   text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.6);
   line-height: 1.4rem;
-  margin-bottom: 4%;
   font-size: 1.1rem;
   word-spacing: 0.2rem;
   line-height: 1.4rem;
-  text-align: justify;
 }
 
 @media (max-width: 992px) {
@@ -68,9 +65,14 @@ OhanaCast
 }
 
 @media (max-width: 768px) {
+  .headline-itens h1 {
+    font-size: 2rem;
+  }
+
   .headline-itens p {
     margin-top: 3.5rem;
     max-width: 80%;
+    font-size: 1rem;
   }
 }
 
@@ -79,13 +81,11 @@ OhanaCast
     margin-top: 15%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
   }
 
   .headline-itens p {
+    margin-top: 2rem;
     max-width: 100%;
-    margin-top: 5%;
   }
 
   .apps {

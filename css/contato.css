@@ -125,3 +125,9 @@
         margin-top: 2rem;
     }
 }
+
+@media (max-width: 576px) {
+    .contact-main {
+      padding: 7rem 8.3% 6%;
+    }
+}  

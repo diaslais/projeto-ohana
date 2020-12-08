@@ -18,7 +18,6 @@
   padding-top: 0;
   padding-bottom: 5%;
   padding-right: 10%;
-  /* border: 1px solid blue; */
 }
 
 .quem-somos-main h2 {
@@ -27,13 +26,11 @@
   color: #4ab8b9;
   font-size: 2.3rem;
   margin-bottom: 3rem;
-  /* border: 1px black ; */
 }
 
 #article-img-quem-somos {
   width: 50%;
   height: 100%;
-  /* border: 1px solid red; */
 }
 
 #img-quem-somos {
@@ -83,14 +80,12 @@ p {
 
 #texto-missao {
   width: 50%;
-  /* border: 1px solid black; */
 }
 
 #texto-nossa-equipe {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* border: 1px solid black; */
 }
 
 #imagens-membros {
@@ -100,7 +95,7 @@ p {
 }
 
 .figure-membros {
-  object-fit: none; /* contain */
+  object-fit: none;
 }
 
 #section-odsatuamos {
@@ -112,13 +107,8 @@ p {
 #texto-odsatuamos {
   width: 50%;
   height: 100%;
-
   flex-direction: row;
-  /* justify-content: space-between; */
-
   padding: 0 8.3% 0 0;
-
-  /* border: 1px solid blue; */
 }
 
 .container-img-ods {
@@ -144,13 +134,10 @@ p {
   #texto-quem-somos {
     width: 100%;
     padding: 0 0 5% 0;
-
   }
 
   .quem-somos-main h2 {
     padding-top: 0;
-   
-    /* border: 1px black ; */
   }
   
   #article-img-quem-somos {
@@ -159,8 +146,7 @@ p {
 
   #section-missao-historia {
     display: flex;
-    flex-direction: column-reverse;
-    
+    flex-direction: column-reverse;    
   }
   
   #texto-historia {
@@ -173,6 +159,7 @@ p {
   #img-historia {
     width: 100%;
   }
+
   #texto-missao {
     width: 100%;
     padding-bottom: 5%;
@@ -193,14 +180,15 @@ p {
  
   #texto-odsatuamos {
     width: 100%;  
-  
     padding: 0 8.3% 0 0;
-  
-
   }
 }
 
 @media (max-width: 576px) {
+  .quem-somos-main {
+    padding: 7rem 8.3% 6%;
+  }
+
   .section-quem-somos {
     display: block;
     justify-content: center;
@@ -210,11 +198,6 @@ p {
     width: 100%;
     padding-bottom: 10%;
   }
-
-  .quem-somos-main h2 {
-    padding-top: 10%;
-    /* border: 1px black ; */
-  }
   
   #article-img-quem-somos {
     width: 100%;     
@@ -222,8 +205,7 @@ p {
 
   #section-missao-historia {
     display: flex;
-    flex-direction: column-reverse;
-    
+    flex-direction: column-reverse;    
   }
   
   #texto-historia {

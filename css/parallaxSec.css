@@ -11,28 +11,24 @@
     background-blend-mode: multiply; 
 } 
 
-
+.headline-content {
+    display: flex;
+    flex-direction: column;
+}
 
 #ohanaCast{
-    display: inline-block;
-    top: auto;
+    margin-top: 9rem;
 }
 
 #card{
     display: inline-block;
     position: relative;
-    color: white;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 1.5vw;
-    font-style: bold;
-    font-weight: 400;
-
 }
 
 #imgText{
     position: absolute;
     left: 5%;
-    top: 40%;
+    top: 10%;
     max-width: 50vw;
     justify-content: center column;
 }
@@ -42,6 +38,7 @@
     top: 1vw;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 2rem;
 }
 
 #spotyButton, #deezerButton{
@@ -52,10 +49,8 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 1.2vw;
-    
+    font-size: 1.2vw;    
 }
-
 
 .fa-spotify, .fa-deezer{
   font-size: 1.5rem;
@@ -72,14 +67,12 @@
 #spotyButton:hover{
     transition: all .1s ease;
     -webkit-transition: all .1s ease;
-
     transform: scale(1.05);
 }
 
 #deezerButton:hover{
     transition: all .1s ease;
     -webkit-transition: all .1s ease;
-
     transform: scale(1.05);
 }
 
@@ -88,17 +81,15 @@
     .imgSection{
         display: flex;
         justify-content: center;
+        height: auto;
     } 
 
-    #ohanaCast{
-        font-size: 40px;
-        top: -20px;
+    .headline-content {
+        margin-top: 7rem;
     }
-    
-    #card{
-        font-size: 4vw;
-        font-style: bold;
-        font-weight: 400;
+
+    #ohanaCast{
+        margin-top: 0;
     }
 
     #imgText{
@@ -116,6 +107,5 @@
         width: 250px;
         margin: 8px;
         font-size: 15px;
-    }
-    
+    }    
 }

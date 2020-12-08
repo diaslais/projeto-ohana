@@ -3,65 +3,75 @@
     justify-content: center;
     background: white;
     flex-direction: column;
+    height: 150vh;
 }
 
 #podcastCall{
+    top: 1vw;
+    height: 20%;
+    display: inline-block;
+    position: relative;
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
     font-size: 250%;
     text-transform: uppercase;
-    color: #4ab8b9;
-    
+    color: #4ab8b9;    
+    margin-top: 2rem;
+    padding-left: 8.3%;
 }
 
 #spotify{
     position: relative;
-    top: 50px;
+    top: 5vw;
     width: 80%; 
     height: 50vw;
-    margin: auto;
-    
+    margin: auto;    
 }
 
 #podcastDraw{
     position: relative;
-    top: 50px;
+    top: 1%;
     height: 40vw;
     width: auto;
     margin: auto;
 }
 
 @media (max-width: 992px) {
-    .castContent{
-        height: 300vw;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-
     #podcastCall{
-        display: inline-block;
-        position: relative;
-        width: 80%;
-        font-size: 45px;
-        font-style: bold;
+        height: 2%;
+        width: 100%;
         font-weight: 700;
     }
 
     #spotify{
         position: relative;
-        top: 30vw;
+        padding: 5vw;
+        width: 90vw; 
+        height: 70vw;
+    }
+}
+
+@media (max-width: 576px) {
+    .castContent{
+        height: 300vw;
+    }
+
+    #podcastCall{
+        height: 10%;
+        width: 100%;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    #spotify{
+        position: relative;
         width: 90vw; 
         height: 100vw;
-        margin: auto;
-        
     }
 
     #podcastDraw{
         position: relative;
         top: 50px;
-        height: 20%;
-        width: auto;
-        margin: auto;
+        height: 20%;        
     }
 }

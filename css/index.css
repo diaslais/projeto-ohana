@@ -187,11 +187,11 @@
 .index-container-parcerias {
   padding: 6% 8.3%;
   display: flex;
+  flex-direction: column;
 }
 
-.index-parcerias-text {
-  width: 50%;
-  padding: 0 0 0 8.3%;
+.parceiros-logos-container {
+  max-width: 100%;
 }
 
 .index-parcerias-text h2 {
@@ -203,22 +203,32 @@
 }
 
 .index-parceiros {
-  margin-right: 2rem;
-}
-
-.index-parcerias-logos {
+  max-width: 17%;
   display: flex;
-  width: 50%;
-  text-align: center;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 .5rem;
 }
 
-.index-parcerias-logos img {
+.parcerias-logos-linha1 {
+  margin-bottom: 2rem;
+}
+
+.parcerias-logos-linha1,
+.parcerias-logos-linha2 {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.parcerias-logos-linha1 img,
+.parcerias-logos-linha2 img {
   max-width: 100%;
+  margin-bottom: .5rem;
 }
 
 .index-doar {
-  padding: 6% 5%;
+  padding: 6% 8.3%;
 }
 
 .index-doar h2 {
@@ -330,16 +340,8 @@
     max-width: 80vw;
   }
 
-  .index-container-parcerias {
-    flex-direction: column-reverse;
-  }
-
-  .index-parcerias-text {
-    padding: 0;
-    width: auto;
-  }
-
-  .index-parcerias-logos {
+  .parcerias-logos-linha1,
+  .parcerias-logos-linha2 {
     margin-top: 1.5rem;
     width: auto;
     flex-direction: row;
@@ -384,6 +386,12 @@
   .index-doar .desc-us h2 {
     font-size: 1.7rem;
   }
+
+  .parcerias-logos-linha1,
+  .parcerias-logos-linha2 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 576px) {
@@ -420,23 +428,18 @@
     padding: 0.7rem 1.5rem;
   }
 
-  .index-container-parcerias {
-    flex-direction: column-reverse;
-  }
-
-  .index-parcerias-text {
-    padding: 0;
-    width: auto;
-  }
-
-  .index-parcerias-logos {
-    margin-top: 1.5rem;
+  .parcerias-logos-linha1,
+  .parcerias-logos-linha2 {
+    margin-top: 0;
+    margin-bottom: 0;
     width: auto;
     flex-direction: column;
+    align-items: center;
   }
 
   .index-parceiros {
     margin: .5rem 0;
+    max-width: 12rem;
   }
 
   .index-doar .desc-us {
