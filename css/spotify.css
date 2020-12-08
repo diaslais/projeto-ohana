@@ -21,8 +21,8 @@
 }
 
 #spotify{
-    position: relative;
     top: 5vw;
+    position: relative;
     width: 80%; 
     height: 50vw;
     margin: auto;    
