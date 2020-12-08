@@ -96,17 +96,17 @@
     }
     
     #card{
-        font-size: 4vw;
+        font-size: 100%;
         font-style: bold;
         font-weight: 400;
     }
 
     #imgText{
-        top: 30%;
+        top: 10%;
     }
    
     #imgButton{
-        top: 20px;
+        top: 10px;
         flex-direction: column;
         align-items: stretch;
     }
@@ -119,3 +119,4 @@
     }
     
 }
+
