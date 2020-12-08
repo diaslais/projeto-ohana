@@ -6,17 +6,20 @@
 }
 
 #podcastCall{
+    top: 1vw;
+    height: 20%;
+    display: inline-block;
+    position: relative;
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
     font-size: 250%;
     text-transform: uppercase;
     color: #4ab8b9;
-    
 }
 
 #spotify{
+    top: 5vw;
     position: relative;
-    top: 50px;
     width: 80%; 
     height: 50vw;
     margin: auto;
@@ -25,7 +28,7 @@
 
 #podcastDraw{
     position: relative;
-    top: 50px;
+    top: 1%;
     height: 40vw;
     width: auto;
     margin: auto;
@@ -40,9 +43,10 @@
     }
 
     #podcastCall{
+        height: 10%;
         display: inline-block;
         position: relative;
-        width: 80%;
+        width: 100%;
         font-size: 45px;
         font-style: bold;
         font-weight: 700;
@@ -50,11 +54,9 @@
 
     #spotify{
         position: relative;
-        top: 30vw;
         width: 90vw; 
         height: 100vw;
         margin: auto;
-        
     }
 
     #podcastDraw{
