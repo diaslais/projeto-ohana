@@ -5,26 +5,22 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    left: 0px;
+    display: flex;
+    align-items: center;
     background-color: #4a9185;
     background-blend-mode: multiply; 
 } 
 
 
+
 #ohanaCast{
     display: inline-block;
-    font-family: "Ubuntu", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 10vw;
-    color: white;
+    top: auto;
 }
 
 #card{
     display: inline-block;
     position: relative;
-    top: 0px;
-    left: 10px;
     color: white;
     font-family: "Ubuntu", sans-serif;
     font-size: 1.5vw;
@@ -95,7 +91,7 @@
     } 
 
     #ohanaCast{
-        font-size: 60px;
+        font-size: 40px;
         top: -20px;
     }
     

@@ -1,23 +1,18 @@
 .castContent{
     display: flex;
     justify-content: center;
-    background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,1) 19%, rgba(48,161,165,1) 79%, rgba(78,184,185,1) 100%);
+    background: white;
     flex-direction: column;
 }
 
 #podcastCall{
-    display: inline;
-    top: 30px;
-    height: 5vw;
-    color: white;
     font-family: "Ubuntu", sans-serif;
-    font-size: 50px;
-    font-style: bold;
     font-weight: 700;
+    font-size: 250%;
+    text-transform: uppercase;
+    color: #4ab8b9;
     
 }
-
 
 #spotify{
     position: relative;
@@ -41,8 +36,6 @@
         height: 300vw;
         display: flex;
         justify-content: center;
-        background: rgb(0,0,0);
-        background: linear-gradient(180deg, rgba(0,0,0,1) 19%, rgba(48,161,165,1) 79%, rgba(78,184,185,1) 100%);
         flex-direction: column;
     }
 
@@ -50,8 +43,6 @@
         display: inline-block;
         position: relative;
         width: 80%;
-        color: white;
-        font-family: "Ubuntu", sans-serif;
         font-size: 45px;
         font-style: bold;
         font-weight: 700;
