@@ -9,6 +9,10 @@ footer p {
   color: #fff;
 }
 
+p.copyright {
+  font-size: .8rem;
+}
+
 .main-content {
   padding: 3% 8.3% 4%;
   border-bottom: 1px solid #fff;
