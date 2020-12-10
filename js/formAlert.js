@@ -20,12 +20,11 @@ window.onload = function() {
             if(res) {                
                 inputs.forEach(input => input.value = '');
                 textArea.value = '';
-                
                 Swal.fire(
                     "Mensagem enviada!", 
                     "Agradecemos o contato", 
                     "success"
-                );                
+                );
             }            
         });
     });

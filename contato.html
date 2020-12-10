@@ -27,7 +27,7 @@
             <div class="contact-content">
                 <div class="contact c-content">
                     <h2>Contato</h2>
-                    <!-- <form method="POST" name="contact" netlify-honeypot="additional-field" netlify data-netlify-recaptcha="true" action="/contato/#contact-id"> -->
+                    <form method="POST" name="contact" netlify-honeypot="additional-field" netlify data-netlify-recaptcha="true" action="/contato/#contact-id">
                         <div>
                             <p class="hidden">
                                 <label>Don’t fill this out if you're human: <input name="additional-field"/></label>
@@ -35,19 +35,19 @@
                         </div>
                         <div>
                             <label for="nome">Nome:</label>
-                            <input id="nome" name="nome" type="text" placeholder="Digite seu nome" class="field" required>
+                            <input id="nome" name="nome" type="text" placeholder="Digite seu nome" class="field reset-form" required>
                         </div>
                         <div>
                             <label for="email">E-mail:</label>
-                            <input id="email" name="email" type="email" placeholder="Digite seu e-mail" class="field" required>
+                            <input id="email" name="email" type="email" placeholder="Digite seu e-mail" class="field reset-form" required>
                         </div>
                         <div>
                             <label for="assunto">Assunto:</label>
-                            <input id="assunto" name="assunto" type="text" placeholder="Digite o assunto" class="field" required>
+                            <input id="assunto" name="assunto" type="text" placeholder="Digite o assunto" class="field reset-form" required>
                         </div>
                         <div>
                             <label for="mensagem">Mensagem:</label>
-                            <textarea id="mensagem" class="field message-field" name="mensagem"
+                            <textarea id="mensagem" class="field message-field reset-form" name="mensagem"
                                 placeholder="Digite sua mensagem" required></textarea>
                         </div>
                         <div data-netlify-recaptcha="true"></div>                        
