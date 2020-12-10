@@ -14,5 +14,6 @@ $(document).ready(
                 $('ul').removeAttr('style')
             }
         });
-    }
+    },
+    setActivePage(activePage)
 );

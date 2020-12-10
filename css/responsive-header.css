@@ -64,7 +64,7 @@ body {
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   padding: 0.3rem 0.9rem;
-}
+} 
 
 .nav-menu-donate a {
   padding: 0.6rem 2.3rem;
@@ -142,6 +142,20 @@ body {
 }
 
 @media (max-width: 991px) {
+  .nav-menu-item .active {
+    border-bottom: transparent 4px solid !important;
+  }
+
+  .nav-menu-donate a.active {
+    border: transparent 2px solid !important;
+   }
+
+  .nav-dropdown .nav-dropdown-item .active,
+  .nav-dropdown-item-last .active {
+    color: #fff !important;
+    border-bottom: none !important;
+  }  
+
   .nav {
     display: block;
   }
