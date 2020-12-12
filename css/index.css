@@ -207,7 +207,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin: 0 .5rem;
+  margin: 0 1rem;
 }
 
 .parcerias-logos-linha1 {
@@ -218,12 +218,12 @@
 .parcerias-logos-linha2 {
   display: flex;
   text-align: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .parcerias-logos-linha1 img,
 .parcerias-logos-linha2 img {
-  max-width: 100%;
+  max-width: 10rem;
   margin-bottom: .5rem;
 }
 
