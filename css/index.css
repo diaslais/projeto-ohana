@@ -216,14 +216,22 @@
 
 .parcerias-logos-linha1,
 .parcerias-logos-linha2 {
+  flex-wrap: wrap;
   display: flex;
   text-align: center;
   justify-content: center;
+  align-items: baseline;
 }
+
+.parcerias-logos-linha1 h3,
+.parcerias-logos-linha2 h3 {
+    margin-bottom: 1rem;
+  }
 
 .parcerias-logos-linha1 img,
 .parcerias-logos-linha2 img {
   max-width: 10rem;
+  max-height: 10rem;
   margin-bottom: .5rem;
 }
 
@@ -236,7 +244,16 @@
   text-transform: uppercase;
   color: #4ab8b9;
   font-size: 2.3rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.index-doar .desc-us {
+  justify-content: space-evenly;
+}
+
+.index-doar .desc-us-text {
+  max-width: 70%;
 }
 
 .index-doar .button {
@@ -345,7 +362,7 @@
     margin-top: 1.5rem;
     width: auto;
     flex-direction: row;
-  }
+  }  
 }
 
 @media (max-width: 768px) {
@@ -440,6 +457,10 @@
   .index-parceiros {
     margin: .5rem 0;
     max-width: 12rem;
+  }
+
+  .index-doar .desc-us-text {
+    max-width: 100%;
   }
 
   .index-doar .desc-us {
