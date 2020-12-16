@@ -103,4 +103,7 @@ p.copyright {
     font-size: 0.8rem;
     padding: 4% 0;
   }
+  footer p {
+    font-size: .9rem;
+  }
 }
