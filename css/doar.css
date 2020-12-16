@@ -1,5 +1,5 @@
 .doar-main {
-  margin: 0 5% 10% 5%;
+  padding: 10rem 8.3% 6%;;
 }
 
 .doar-main h2 {
@@ -10,8 +10,7 @@
 }
 
 .for-us-container {
-  margin: 2.5% 5%;
-  height: 100vh;
+  margin-bottom: 6rem;
   display: flex;
   align-items: center;
 }
@@ -143,12 +142,6 @@
 }
 
 @media (max-width: 1034px) {
-  .for-us-container {
-    margin-top: 20%;
-    margin-bottom: 15%;
-    height: 50vh;
-  }
-
   .desc-us-text {
     padding-right: 5%;
   }
@@ -174,20 +167,18 @@
 }
 
 @media (max-width: 800px) {
-  .for-us-container {
-    margin-top: 15%;
-    margin-bottom: 10%;
-  }
-
   .desc-us-img img {
     width: 7rem;
   }
 }
 
 @media (max-width: 576px) {
+  .doar-main {
+    padding: 7rem 8.3% 6%;
+  }
+
   .for-us-container {
-    margin-top: 10%;
-    height: 100vh;
+    margin-bottom: 4rem;
   }
 
   .desc-text {
@@ -219,7 +210,7 @@
 
 @media (max-width: 350px) {
   .for-us-container {
-    margin-top: 35%;
+    margin-top: 10%;
     margin-bottom: 10%;
     height: 100%;
   }
