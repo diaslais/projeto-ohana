@@ -147,7 +147,7 @@ body {
   }
 
   .nav-menu-donate a.active {
-    border: transparent 2px solid !important;
+    border: #fff 2px solid !important;
    }
 
   .nav-dropdown .nav-dropdown-item .active,
