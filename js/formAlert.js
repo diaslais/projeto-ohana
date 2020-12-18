@@ -3,8 +3,6 @@ window.onload = function() {
     let testForm = document.querySelector("form");
     let inputs = document.querySelectorAll("input");
     let textArea = document.querySelector("textarea");
-    let btnSubmit = $(".submit-btn");
-
 
     testForm.addEventListener('submit', e => {
         e.preventDefault();
