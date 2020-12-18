@@ -27,7 +27,7 @@
             <div class="contact-content">
                 <div class="contact c-content">
                     <h2>Contato</h2>
-                    <form method="POST" name="contact" netlify-honeypot="additional-field" netlify data-netlify-recaptcha="true" action="/contato/#contact-id">
+                    <form method="POST" name="contact" data-netlify-recaptcha="true" netlify-honeypot="additional-field" netlify action="/contato/#contact-id">
                         <div>
                             <p class="hidden">
                                 <label>Don’t fill this out if you're human: <input name="additional-field"/></label>
@@ -50,7 +50,7 @@
                             <textarea id="mensagem" class="field message-field reset-form" name="mensagem"
                                 placeholder="Digite sua mensagem" required></textarea>
                         </div>
-                        <div data-netlify-recaptcha="true"></div>                        
+                        <div data-netlify-recaptcha="true"></div>                                               
                         <button type="submit" class="submit-btn">Enviar</button>
                     </form>
                 </div>
