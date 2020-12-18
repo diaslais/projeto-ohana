@@ -1,7 +1,6 @@
 $(document).ready(
     function () {
         $('.nav-hamburguer').click(function () {
-            // $('.nav-dropdown').css('display', 'none');
             $('.nav-menu').slideToggle();
         });
 
