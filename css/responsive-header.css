@@ -158,6 +158,9 @@ body {
 
   .nav {
     display: block;
+    float: left;
+    width: 100%;
+    max-width: 100%;
   }
 
   .nav-logo {
