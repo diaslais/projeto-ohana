@@ -242,9 +242,10 @@ p {
   }
 
   .img-ods {
+    max-width: 100%;
     margin: 5% 0;
   }
- 
+   
   #texto-odsatuamos {
     width: 100%;  
     padding-bottom: 5%;
