@@ -111,17 +111,26 @@ p {
   padding: 0 8.3% 0 0;
 }
 
+#texto-odsatuamos p {
+  display: inline;
+}
+
+.p-ods {
+  font-weight: 700;
+}
+
 .container-img-ods {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  width: 50%;
 }
 
 .img-ods {
-  margin-left: 10%;
+  max-width: 30%;
 }
 
 .img-ods img {
-  max-width: 12.5rem;
+  max-width: 100%;
 }
 
 
