@@ -3,6 +3,8 @@ window.onload = function() {
     let testForm = document.querySelector("form");
     let inputs = document.querySelectorAll("input");
     let textArea = document.querySelector("textarea");
+    let btnSubmit = $(".submit-btn");
+
 
     testForm.addEventListener('submit', e => {
         e.preventDefault();
@@ -17,7 +19,8 @@ window.onload = function() {
             body: new URLSearchParams(formData).toString()
         })
         .then(res => {
-            if(res) {                
+            if(res) {  
+                console.log(res);              
                 inputs.forEach(input => input.value = '');
                 textArea.value = '';
                 Swal.fire(
