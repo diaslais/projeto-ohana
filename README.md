@@ -8,6 +8,8 @@
 O projeto consiste no desenvolvimento de um site para a ONG Ohana, focada em auxiliar e capacitar outras ONGs e OSCIPs a fim de que 
 consigam aumentar seu impacto na sociedade.
 
+https://diaslais.github.io/projeto-ohana/
+
 **🛠 Tecnologias utilizadas**
 
 - HTML5 e CSS3
